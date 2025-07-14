@@ -1,0 +1,213 @@
+:root {
+  --indeed-blue: #2557a7;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-brand img {
+  height: 48px;
+  margin-right: 8px;
+}
+
+.navbar-brand span {
+  font-size: 1.5rem;
+}
+
+.navbar-indeed {
+  background-color: #000;
+}
+
+.navbar-indeed .navbar-brand,
+.navbar-indeed .nav-link,
+.navbar-indeed .navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-indeed .btn-outline-secondary {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.navbar-indeed .btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.navbar-indeed .nav-link:hover {
+  color: #dbe4f2;
+}
+
+
+/* LinkedIn-inspired styles for the landing page */
+.navbar-linkedin {
+  background-color: #000;
+}
+
+.navbar-linkedin .navbar-brand,
+.navbar-linkedin .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-linkedin .nav-link:hover {
+  color: #ccc;
+}
+
+.navbar-linkedin .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.navbar-linkedin .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-linkedin .btn-outline-primary:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.hero-linkedin {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Dark theme for AIMA */
+
+.navbar-aima {
+  background-color: #000;
+}
+
+.navbar-aima .navbar-brand,
+.navbar-aima .nav-link,
+.navbar-aima .navbar-toggler-icon {
+  color: #fff;
+}
+
+.navbar-aima .nav-link:hover {
+  color: #ccc;
+}
+
+.navbar-aima .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.navbar-aima .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-aima .btn-outline-primary:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.hero-aima {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-aima h1 {
+  font-size: 2.5rem;
+}
+
+.hero-aima p {
+  font-size: 1.1rem;
+}
+
+.info-aima {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.info-aima h2 {
+  font-size: 2rem;
+}
+
+.info-aima p {
+  font-size: 1.05rem;
+}
+
+/* Indeed inspired jobs page */
+
+/* Black and white theme for jobs hero */
+.hero-indeed {
+  background-color: #000;
+  color: #fff;
+}
+
+.hero-indeed .form-control-lg {
+  border-radius: 0;
+}
+
+.hero-indeed .btn-light {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+}
+
+/* Dashboard header */
+.dashboard-hero {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Global black and white theme */
+
+.navbar-aima,
+.navbar-linkedin,
+.hero-aima {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar-aima .btn-primary,
+.navbar-linkedin .btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.navbar-aima .btn-outline-primary,
+.navbar-linkedin .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.card,
+.list-group-item {
+  background-color: #fff;
+  color: #000;
+  border-color: #ddd;
+}
+
+.form-control {
+  background-color: #fff;
+  color: #000;
+  border-color: #ccc;
+}
+
+.form-control::placeholder {
+  color: #777;
+}
+
+/* Progress bar for Indeed-style apply flow */
+.apply-progress {
+  background-color: #fff;
+  height: 6px;
+}
+.apply-progress-bar {
+  background-color: var(--indeed-blue);
+}

@@ -1,0 +1,437 @@
+{
+  "users": [
+    {
+      "email": "susan3@gmail.com",
+      "password": "fafe6e8dcccdce30c121ec35fa69c16cd489ab07ebd2f0f8dd7e882f206de976",
+      "phone": "3453242332",
+      "contactName": "SUSAN",
+      "type": "member",
+      "verified": true,
+      "verificationCode": "",
+      "followers": [],
+      "groups": [],
+      "docs": [],
+      "profileRequests": [],
+      "profileShares": [],
+      "recommendations": [],
+      "resume": "",
+      "bio": "",
+      "events": [],
+      "notes": [],
+      "snoozed": false,
+      "blocked": [],
+      "dmContacts": [],
+      "dmInvites": [],
+      "resetCode": "",
+      "skills": [
+        "C#",
+        "HTML",
+        "C++"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "authorEmail": "hr@techcorp.com",
+      "authorType": "org",
+      "title": "Frontend Engineer",
+      "description": "Build and maintain responsive web interfaces.",
+      "postType": "job",
+      "tags": [
+        "javascript",
+        "react",
+        "frontend"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 2,
+      "authorEmail": "careers@innovate.ai",
+      "authorType": "org",
+      "title": "Backend Developer",
+      "description": "Design scalable APIs and services using Node.js.",
+      "postType": "job",
+      "tags": [
+        "node",
+        "api",
+        "backend"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 3,
+      "authorEmail": "jobs@datasci.io",
+      "authorType": "org",
+      "title": "Data Scientist",
+      "description": "Analyze datasets to drive product decisions.",
+      "postType": "job",
+      "tags": [
+        "python",
+        "machine learning",
+        "data"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 4,
+      "authorEmail": "design@creativelabs.com",
+      "authorType": "org",
+      "title": "UX Designer",
+      "description": "Craft intuitive user experiences for web apps.",
+      "postType": "job",
+      "tags": [
+        "ux",
+        "design",
+        "figma"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 5,
+      "authorEmail": "talent@stackmagic.io",
+      "authorType": "org",
+      "title": "Full Stack Developer",
+      "description": "Work across the stack to deliver new features.",
+      "postType": "job",
+      "tags": [
+        "javascript",
+        "node",
+        "react"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 6,
+      "authorEmail": "careers@cloudworks.com",
+      "authorType": "org",
+      "title": "Cloud Infrastructure Engineer",
+      "description": "Manage and optimize cloud deployments on AWS.",
+      "postType": "job",
+      "tags": [
+        "aws",
+        "devops",
+        "cloud"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 7,
+      "authorEmail": "jobs@mobilewave.io",
+      "authorType": "org",
+      "title": "iOS Developer",
+      "description": "Create native applications using Swift and SwiftUI.",
+      "postType": "job",
+      "tags": [
+        "ios",
+        "swift",
+        "mobile"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 8,
+      "authorEmail": "hiring@cybersecpro.com",
+      "authorType": "org",
+      "title": "Security Analyst",
+      "description": "Monitor networks and respond to security incidents.",
+      "postType": "job",
+      "tags": [
+        "security",
+        "siem",
+        "monitoring"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 9,
+      "authorEmail": "jobs@cloudworks.com",
+      "authorType": "org",
+      "title": "DevOps Engineer",
+      "description": "Automate CI/CD pipelines and manage Kubernetes clusters.",
+      "postType": "job",
+      "tags": [
+        "devops",
+        "cicd",
+        "kubernetes"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 10,
+      "authorEmail": "talent@aihub.com",
+      "authorType": "org",
+      "title": "Machine Learning Engineer",
+      "description": "Develop ML models for real world applications.",
+      "postType": "job",
+      "tags": [
+        "python",
+        "ml",
+        "tensorflow"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 11,
+      "authorEmail": "jobs@edgecompute.io",
+      "authorType": "org",
+      "title": "Systems Engineer",
+      "description": "Build highly available edge computing systems.",
+      "postType": "job",
+      "tags": [
+        "linux",
+        "systems",
+        "edge"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 12,
+      "authorEmail": "hr@blockchainhub.com",
+      "authorType": "org",
+      "title": "Blockchain Developer",
+      "description": "Implement smart contracts on Ethereum.",
+      "postType": "job",
+      "tags": [
+        "solidity",
+        "ethereum",
+        "web3"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 13,
+      "authorEmail": "careers@medtech.io",
+      "authorType": "org",
+      "title": "Bioinformatics Engineer",
+      "description": "Develop algorithms for genomic analysis.",
+      "postType": "job",
+      "tags": [
+        "python",
+        "bioinformatics",
+        "genomics"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 14,
+      "authorEmail": "jobs@finapps.com",
+      "authorType": "org",
+      "title": "FinTech Product Manager",
+      "description": "Lead product strategy for mobile payment solutions.",
+      "postType": "job",
+      "tags": [
+        "product",
+        "fintech",
+        "management"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 15,
+      "authorEmail": "hiring@vrstudio.com",
+      "authorType": "org",
+      "title": "Unity Developer",
+      "description": "Create immersive VR experiences in Unity.",
+      "postType": "job",
+      "tags": [
+        "unity",
+        "c#",
+        "vr"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 16,
+      "authorEmail": "talent@ecommercehub.com",
+      "authorType": "org",
+      "title": "Shopify Developer",
+      "description": "Build custom themes and apps for Shopify stores.",
+      "postType": "job",
+      "tags": [
+        "shopify",
+        "liquid",
+        "ecommerce"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 17,
+      "authorEmail": "recruit@smartauto.com",
+      "authorType": "org",
+      "title": "Embedded Software Engineer",
+      "description": "Develop firmware for autonomous vehicle systems.",
+      "postType": "job",
+      "tags": [
+        "c++",
+        "embedded",
+        "autos"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 18,
+      "authorEmail": "jobs@bigdata.io",
+      "authorType": "org",
+      "title": "Data Engineer",
+      "description": "Build data pipelines using Spark and Hadoop.",
+      "postType": "job",
+      "tags": [
+        "spark",
+        "hadoop",
+        "etl"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 19,
+      "authorEmail": "careers@roboticslab.com",
+      "authorType": "org",
+      "title": "Robotics Software Engineer",
+      "description": "Program autonomous robots with ROS.",
+      "postType": "job",
+      "tags": [
+        "ros",
+        "c++",
+        "robotics"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 20,
+      "authorEmail": "hiring@adsupply.com",
+      "authorType": "org",
+      "title": "Ad Operations Specialist",
+      "description": "Optimize digital campaigns across multiple platforms.",
+      "postType": "job",
+      "tags": [
+        "marketing",
+        "ads",
+        "analytics"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 21,
+      "authorEmail": "careers@gamestudio.io",
+      "authorType": "org",
+      "title": "Game Backend Engineer",
+      "description": "Design scalable multiplayer game services.",
+      "postType": "job",
+      "tags": [
+        "node",
+        "game",
+        "backend"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 22,
+      "authorEmail": "jobs@assistive.ai",
+      "authorType": "org",
+      "title": "NLP Engineer",
+      "description": "Build conversational AI features using LLMs.",
+      "postType": "job",
+      "tags": [
+        "nlp",
+        "python",
+        "transformers"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 23,
+      "authorEmail": "hr@mobilesolutions.com",
+      "authorType": "org",
+      "title": "Android Developer",
+      "description": "Develop Android apps using Kotlin.",
+      "postType": "job",
+      "tags": [
+        "android",
+        "kotlin",
+        "mobile"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 24,
+      "authorEmail": "careers@arstartup.com",
+      "authorType": "org",
+      "title": "AR/VR Software Engineer",
+      "description": "Create augmented reality features for mobile apps.",
+      "postType": "job",
+      "tags": [
+        "ar",
+        "unity",
+        "mobile"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    },
+    {
+      "id": 25,
+      "authorEmail": "jobs@microservice.io",
+      "authorType": "org",
+      "title": "Microservices Architect",
+      "description": "Design service-oriented architectures at scale.",
+      "postType": "job",
+      "tags": [
+        "architecture",
+        "microservices",
+        "cloud"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
+    }
+  ],
+  "groups": [],
+  "messages": []
+}
