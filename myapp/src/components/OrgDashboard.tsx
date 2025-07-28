@@ -157,6 +157,15 @@ export default function OrgDashboard() {
                               {(cand.ratings.reduce((s:number,r:any)=>s+r.score,0)/cand.ratings.length).toFixed(1)}/5
                             </span>
                           )}
+                          {cand.resume && (
+                            <a
+                              href={cand.resume}
+                              download="resume"
+                              className="btn btn-sm btn-outline-secondary ms-2"
+                            >
+                              Resume
+                            </a>
+                          )}
                           <Link
                             to={`/profile/${cand.email}`}
                             className="btn btn-sm btn-outline-info ms-2"

@@ -55,7 +55,7 @@ export default function Apply() {
     allUsers[uIdx].phone = phone;
     await saveUsers(allUsers);
     localStorage.setItem('currentUser', JSON.stringify(allUsers[uIdx]));
-    navigate('/dashboard');
+    setStep(4);
   };
 
   return (
@@ -68,7 +68,7 @@ export default function Apply() {
           <div
             className="progress-bar apply-progress-bar"
             role="progressbar"
-            style={{ width: `${(step / 3) * 100}%` }}
+            style={{ width: `${(step / 4) * 100}%` }}
           ></div>
         </div>
         {step === 1 && (
@@ -146,6 +146,17 @@ export default function Apply() {
             </button>
             <button className="btn btn-success" onClick={submit}>
               Submit Application
+            </button>
+          </div>
+        )}
+        {step === 4 && (
+          <div className="text-center">
+            <h5 className="mb-3">Application submitted!</h5>
+            <button
+              className="btn btn-primary"
+              onClick={() => navigate('/dashboard')}
+            >
+              Return to Dashboard
             </button>
           </div>
         )}
