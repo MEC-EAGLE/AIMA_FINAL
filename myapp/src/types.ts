@@ -24,6 +24,7 @@ export interface User {
   dmInvites?: string[];
   verificationCode?: string;
   resetCode?: string;
+  codingScore?: number;
 }
 
 export interface Recommendation {

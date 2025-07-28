@@ -10,6 +10,8 @@ export default function Profile() {
   const [viewer, setViewer] = useState(null as any);
   const [user, setUser] = useState(null as any);
   const [allUsers, setAllUsers] = useState([] as any[]);
+  const [rank, setRank] = useState<number | null>(null);
+  const [totalRanks, setTotalRanks] = useState<number | null>(null);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -21,6 +23,11 @@ export default function Profile() {
       const found = all.find((u: any) => u.email === email);
       if (!found) return navigate('/community');
       setUser(found);
+      const sorted = [...all].filter(u => u.codingScore !== undefined);
+      sorted.sort((a, b) => (b.codingScore || 0) - (a.codingScore || 0));
+      const r = sorted.findIndex(u => u.email === found.email);
+      setRank(r >= 0 ? r + 1 : null);
+      setTotalRanks(sorted.length);
     });
   }, [email, navigate]);
 
@@ -61,6 +68,9 @@ export default function Profile() {
         </div>
         <h5>Skills</h5>
         <p>{(user.skills || []).join(', ') || 'No skills listed'}</p>
+        {rank && totalRanks && user.type === 'member' && (
+          <p className="text-muted">Coding rank: {rank} of {totalRanks}</p>
+        )}
         {user.bio && (
           <div className="mb-2">
             <h5>Bio</h5>

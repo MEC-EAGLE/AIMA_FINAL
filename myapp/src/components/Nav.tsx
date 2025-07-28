@@ -26,7 +26,10 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" to="/dashboard">
+              <Link
+                className="nav-link"
+                to={me && me.type === 'org' ? '/org-dashboard' : '/dashboard'}
+              >
                 Dashboard
               </Link>
             </li>
@@ -47,6 +50,13 @@ export default function Nav() {
                 Jobs
               </Link>
             </li>
+            {me && me.type === 'member' && (
+              <li className="nav-item">
+                <Link className="nav-link" to="/assessment">
+                  Assessment
+                </Link>
+              </li>
+            )}
             <li className="nav-item">
               <Link className="nav-link" to="/calendar">
                 Calendar
