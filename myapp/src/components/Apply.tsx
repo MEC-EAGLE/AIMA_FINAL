@@ -235,7 +235,7 @@ export default function Apply() {
         )}
         {step === (assessment ? 5 : 4) && (
           <div className="text-center">
-            <h5 className="mb-3">Successfully applied!</h5>
+            <h5 className="mb-3">Application submitted successfully!</h5>
             <p className="mb-2">Redirecting to jobs...</p>
             <button className="btn btn-primary" onClick={() => navigate('/jobs')}>
               Go to Jobs
