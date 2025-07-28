@@ -12,6 +12,7 @@ export default function OrgDashboard() {
   const [minRating, setMinRating] = useState(0);
   const [minScore, setMinScore] = useState(0);
   const [showNew, setShowNew] = useState(false);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -101,7 +102,16 @@ export default function OrgDashboard() {
                   )
                   .map(p => (
                     <li key={p.id} className="list-group-item">
-                      <Link to={`/jobs/${p.id}`}>{p.title}</Link>
+                      <button
+                        type="button"
+                        className="btn btn-link p-0"
+                        onClick={() => {
+                          setSelectedId(p.id);
+                          setShowNew(false);
+                        }}
+                      >
+                        {p.title}
+                      </button>
                       <span className="badge bg-primary ms-2">
                         {
                           p.applicants.filter(
@@ -155,10 +165,19 @@ export default function OrgDashboard() {
             </select>
           </div>
         </div>
+        {selectedId && (
+          <button
+            type="button"
+            className="btn btn-secondary mb-3"
+            onClick={() => setSelectedId(null)}
+          >
+            Back to all posts
+          </button>
+        )}
         <Link to="/create" className="btn btn-primary mb-3">
           Post a Job
         </Link>
-        {posts.map(p => (
+        {(selectedId ? posts.filter(p => p.id === selectedId) : posts).map(p => (
           <div key={p.id} className="card mb-3">
             <div className="card-body">
               <h5 className="card-title">{p.title}</h5>
