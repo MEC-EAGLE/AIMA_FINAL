@@ -139,6 +139,8 @@ export default function Assessment() {
   const [user, setUser] = useState<User | null>(null);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [started, setStarted] = useState(false);
+  const [current, setCurrent] = useState(0);
   const [rankings, setRankings] = useState<User[]>([]);
 
   useEffect(() => {
@@ -167,6 +169,14 @@ export default function Assessment() {
     setSubmitted(true);
   };
 
+  const next = () => {
+    if (current < QUESTIONS.length - 1) {
+      setCurrent(c => c + 1);
+    } else {
+      submit();
+    }
+  };
+
   const sorted = [...rankings].filter(
     u => u.type === 'member' && u.codingScore !== undefined
   );
@@ -179,36 +189,58 @@ export default function Assessment() {
       <div className="container my-4" style={{ maxWidth: '700px' }}>
         <h2>Assessment</h2>
         {!submitted ? (
-          <form
-            onSubmit={e => {
-              e.preventDefault();
-              submit();
-            }}
-          >
-            {QUESTIONS.map(q => (
-              <div key={q.id} className="mb-3">
-                <p className="fw-bold">{q.question}</p>
-                {q.options.map(opt => (
+          !started ? (
+            <div className="text-center">
+              <p className="mb-3">
+                Start the quiz to test your coding knowledge. You can't go back
+                once you proceed.
+              </p>
+              <button
+                className="btn btn-primary"
+                onClick={() => setStarted(true)}
+              >
+                Start Quiz
+              </button>
+            </div>
+          ) : (
+            <form
+              onSubmit={e => {
+                e.preventDefault();
+                next();
+              }}
+            >
+              <div className="mb-3">
+                <p className="fw-bold">{QUESTIONS[current].question}</p>
+                {QUESTIONS[current].options.map(opt => (
                   <div className="form-check" key={opt}>
                     <input
                       className="form-check-input"
                       type="radio"
-                      name={`q${q.id}`}
+                      name={`q${QUESTIONS[current].id}`}
                       value={opt}
-                      checked={answers[q.id] === opt}
+                      checked={
+                        answers[QUESTIONS[current].id] === opt
+                      }
                       onChange={() =>
-                        setAnswers(a => ({ ...a, [q.id]: opt }))
+                        setAnswers(a => ({
+                          ...a,
+                          [QUESTIONS[current].id]: opt,
+                        }))
                       }
                     />
                     <label className="form-check-label">{opt}</label>
                   </div>
                 ))}
               </div>
-            ))}
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </form>
+              <button
+                type="submit"
+                className="btn btn-primary"
+                disabled={!answers[QUESTIONS[current].id]}
+              >
+                {current < QUESTIONS.length - 1 ? 'Next' : 'Submit'}
+              </button>
+            </form>
+          )
         ) : (
           <div>
             <h4 className="mb-3">Your score: {user.codingScore}/{QUESTIONS.length}</h4>
