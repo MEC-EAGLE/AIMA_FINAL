@@ -8,6 +8,8 @@ export default function OrgDashboard() {
   const [user, setUser] = useState<any>(null);
   const [posts, setPosts] = useState<any[]>([]);
   const [users, setUsers] = useState<any[]>([]);
+  const [filterSkill, setFilterSkill] = useState('');
+  const [minRating, setMinRating] = useState(0);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -80,6 +82,32 @@ export default function OrgDashboard() {
             </div>
           </div>
         </div>
+        <div className="row mb-3">
+          <div className="col-md-6 mb-2">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Filter applicants by skill"
+              value={filterSkill}
+              onChange={e => setFilterSkill(e.target.value)}
+            />
+          </div>
+          <div className="col-md-6 mb-2">
+            <label className="form-label me-2">Minimum rating</label>
+            <select
+              className="form-select w-auto d-inline-block"
+              value={minRating}
+              onChange={e => setMinRating(parseInt(e.target.value))}
+            >
+              <option value={0}>Any</option>
+              {[1, 2, 3, 4, 5].map(n => (
+                <option key={n} value={n}>
+                  {n}+
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
         <Link to="/create" className="btn btn-primary mb-3">
           Post a Job
         </Link>
@@ -137,7 +165,22 @@ export default function OrgDashboard() {
 
               <h6>Applicants</h6>
               <ul className="list-group mb-2">
-                {p.applicants.map(a => (
+                {p.applicants
+                  .filter(a => {
+                    const cand = users.find(u => u.email === a);
+                    if (!cand) return false;
+                    const rating = cand.ratings && cand.ratings.length > 0
+                      ? cand.ratings.reduce((s: number, r: any) => s + r.score, 0) / cand.ratings.length
+                      : 0;
+                    const ratingOk = rating >= minRating;
+                    const skillOk =
+                      !filterSkill.trim() ||
+                      (cand.skills || []).some(s =>
+                        s.toLowerCase().includes(filterSkill.toLowerCase())
+                      );
+                    return ratingOk && skillOk;
+                  })
+                  .map(a => (
                   <li
                     key={a}
                     className="list-group-item"

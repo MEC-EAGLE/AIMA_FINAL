@@ -20,6 +20,7 @@ Candidate profiles track skills, job preferences and peer ratings.
 Peer-to-peer networking and upskilling options foster community growth.
 Integration with popular communication tools like WhatsApp and email for easier follow-ups.
 Members can rate each other from profiles, and organizations see suggested candidates based on skill and preference matching.
+Organizations can filter applicants by skill keywords and minimum rating to quickly sort large numbers of resumes.
 Getting Started
 Install dependencies:
 npm install
