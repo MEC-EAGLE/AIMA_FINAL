@@ -252,13 +252,12 @@ export default function Jobs() {
         {filtered.length === 0 && <p>No posts.</p>}
         <ul className="list-group">
           {filtered.map(p => (
-            <li
-              key={p.id}
-              className="list-group-item"
-              onClick={() => markViewed(p.id)}
-            >
+            <li key={p.id} className="list-group-item" onClick={() => markViewed(p.id)}>
               <div className="d-flex justify-content-between">
-                <div>
+                <Link
+                  to={`/jobs/${p.id}`}
+                  className="text-body text-decoration-none"
+                >
                   <strong>{p.title}</strong> ({p.postType}) by{' '}
                   {(users.find(u => u.email === p.authorEmail)?.contactName ||
                     p.authorEmail)}
@@ -268,7 +267,7 @@ export default function Jobs() {
                   {saved.has(p.id) && (
                     <span className="badge bg-info text-dark ms-2">saved</span>
                   )}
-                </div>
+                </Link>
                 <div>
                   <button
                     type="button"
@@ -313,7 +312,7 @@ export default function Jobs() {
                   )}
                 </div>
               </div>
-              <p className="mb-1">{p.description}</p>
+              <p className="mb-1 mt-2">{p.description}</p>
             </li>
           ))}
         </ul>
