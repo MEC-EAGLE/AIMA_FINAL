@@ -455,6 +455,22 @@
       "applicants": [],
       "statuses": {},
       "comments": []
+    },
+    {
+      "id": 26,
+      "authorEmail": "jobs2@gmail.com",
+      "authorType": "org",
+      "title": "Senior Full Stack Developer",
+      "description": "\"Full job description\\nCompany Overview\\n\\nLawlabs Inc. is a dynamic team based Ontario, comprised of legal and tech professionals dedicated to revolutionizing the property closing experience. Our mission is to create a seamless and optimized conveyancing process that meets the evolving needs of lawyers and clerks while upholding our core values of trust, integrity, and excellence.\\n\\nSummary\\n\\nWe are looking for a skilled Senior Full Stack Developer to design, implement and maintainfunctional and user-friendly web applications. The ideal candidate will be proficient in bothfront-end and back-end technologies, with a strong understanding of software development principles.\\n\\nAs a Senior Full Stack Developer, you will collaborate with cross-functional teams to deliver high-quality solutions that meet our clients' needs.\\n\\nResponsibilities:\\n\\nDevelop and maintain robust web applications using modern technologies\\nCollaborate with designers and other developers to implement user-friendly interfaces\\nWrite clean, efficient, and maintainable code\\nPerform code reviews and provide constructive feedback to peers\\nTroubleshoot and debug issues to ensure optimal performance and reliability\\nStay up-to-date with emerging technologies and industry trends\\nSetting architectural standards and approaches across the project\\nRequirements:\\n\\nBachelor's degree in Computer Science, Engineering, or a related field\\nAt least six (6) years\\u2019 experience as a Full Stack Developer or similar role\\nProficiency in front-end technologies such as HTML, CSS, JavaScript, and the Angular framework\\n\\nMasterful understanding of back-end technologies such as C#\\nExperience with databases such as MySQL, PostgreSQL, MongoDB, etc.\\nFamiliarity with version control systems (e.g. Git)\\nExcellent communication and collaboration skills\\nAbility to work independently and as part of a team\\nStrong problem-solving and analytical skills\\nNice to Have:\\n\\nExperience with AWS\\nKnowledge of DevOps principles and tools\\nFamiliarity with containerization and orchestration technologies (e.g., Docker, Kubernetes)\\n\\nUnderstanding of Agile development methodologies\\nExperience with Microsoft WORD/Working with XML\\nOur Stack:\\n\\nAngular 19, Typescript, RXJS, NGXS, Tailwind, Flexbox, CSS Grid.\\nGoogle Cloud Systems, Firebase, BigQuery, Functions, Docker, Kubernetes.\\nIf you're passionate about leveraging technology to improve legal processes and want to be part of a dedicated team making a difference, we invite you to apply today at Lawlabs Inc.! Your next career adventure awaits!\\n\\nJob Types: Full-time, Permanent\\n\\nPay: $100,000.00-$130,000.00 per year\\n\\nBenefits:\\n\\nDental care\\nPaid time off\\nVision care\\nEducation:\\n\\nBachelor's (Required)\\nWork Location: Remote\\n\"",
+      "postType": "job",
+      "tags": [
+        "fullstack",
+        "angular",
+        "csharp"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": []
     }
   ],
   "assessments": [],
