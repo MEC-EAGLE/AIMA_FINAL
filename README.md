@@ -2,7 +2,7 @@ AIMA Community App
 This is a small demo app built with React and Vite. The project simulates a community platform with members and organizations. Members can join groups, chat with each other, and apply for opportunities posted by organizations.
 
 Features
-Register as a member or organization with optional profile photo upload.
+Register as a member or organization with optional profile photo upload; only members can upload a resume.
 Email-based OTP verification during registration using Gmail.
 Direct messages with invite system similar to Instagram DMs.
 WhatsApp‑style group chats supporting file attachments and member invites.

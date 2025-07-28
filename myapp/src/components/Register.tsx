@@ -74,7 +74,6 @@ export default function Register() {
       profileRequests: [],
       profileShares: [],
       recommendations: [],
-      resume,
       bio: '',
       events: [],
       notes: [],
@@ -89,6 +88,7 @@ export default function Register() {
         .split(',')
         .map((s: string) => s.trim())
         .filter((s: string) => s);
+      newUser.resume = resume;
     }
     if (type === 'org') {
       newUser.peopleMap = [];
@@ -140,25 +140,27 @@ export default function Register() {
             required
           />
         </div>
-        <div className="mb-3">
-          <label className="form-label">Resume (optional)</label>
-          <input
-            type="file"
-            accept=".pdf,.doc,.docx"
-            className="form-control"
-            onChange={e => {
-              const f = e.target.files?.[0];
-              if (!f) return;
-              if (f.size > 5 * 1024 * 1024) {
-                alert('Resume must be under 5MB');
-                return;
-              }
-              const reader = new FileReader();
-              reader.onload = () => setResume(reader.result as string);
-              reader.readAsDataURL(f);
-            }}
-          />
-        </div>
+        {type === 'member' && (
+          <div className="mb-3">
+            <label className="form-label">Resume (optional)</label>
+            <input
+              type="file"
+              accept=".pdf,.doc,.docx"
+              className="form-control"
+              onChange={e => {
+                const f = e.target.files?.[0];
+                if (!f) return;
+                if (f.size > 5 * 1024 * 1024) {
+                  alert('Resume must be under 5MB');
+                  return;
+                }
+                const reader = new FileReader();
+                reader.onload = () => setResume(reader.result as string);
+                reader.readAsDataURL(f);
+              }}
+            />
+          </div>
+        )}
         <div className="mb-3">
           <label className="form-label">Password</label>
           <div className="input-group">
