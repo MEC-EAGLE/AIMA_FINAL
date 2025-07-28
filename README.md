@@ -14,7 +14,8 @@ Coding assessment tab for members only, with rankings shown on their profiles. T
 Simple JSON file database served via a small Node server.
 AI-powered candidate matching suggests the most relevant applicants for each posting.
 Role-specific assessments with ranking metrics help evaluate candidates effectively.
-Recruiter dashboards include posting management tools and analytics cards.
+Recruiter dashboards include posting management tools and analytics cards. The
+Applications card can be clicked to reveal which jobs have new applicants.
 Candidate profiles track skills, job preferences and peer ratings.
 Peer-to-peer networking and upskilling options foster community growth.
 Integration with popular communication tools like WhatsApp and email for easier follow-ups.

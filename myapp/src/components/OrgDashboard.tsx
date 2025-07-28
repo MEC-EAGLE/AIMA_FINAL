@@ -11,6 +11,7 @@ export default function OrgDashboard() {
   const [filterSkill, setFilterSkill] = useState('');
   const [minRating, setMinRating] = useState(0);
   const [minScore, setMinScore] = useState(0);
+  const [showNew, setShowNew] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -67,10 +68,14 @@ export default function OrgDashboard() {
             </div>
           </div>
           <div className="col-md-4 mb-2">
-            <div className="card text-center">
+            <div
+              className="card text-center"
+              style={{ cursor: 'pointer' }}
+              onClick={() => setShowNew(!showNew)}
+            >
               <div className="card-body p-2">
-                <h6 className="card-title">Applications</h6>
-                <p className="fs-4 mb-0">{totalApplicants}</p>
+                <h6 className="card-title mb-0">Applications</h6>
+                <p className="fs-4">{totalApplicants}</p>
               </div>
             </div>
           </div>
@@ -83,6 +88,34 @@ export default function OrgDashboard() {
             </div>
           </div>
         </div>
+        {showNew && (
+          <div className="card mb-3">
+            <div className="card-body">
+              <h6>Jobs with new applicants</h6>
+              <ul className="list-group">
+                {posts
+                  .filter(p =>
+                    p.applicants.some(
+                      a => (p.statuses[a] || 'applied') === 'applied'
+                    )
+                  )
+                  .map(p => (
+                    <li key={p.id} className="list-group-item">
+                      <Link to={`/jobs/${p.id}`}>{p.title}</Link>
+                      <span className="badge bg-primary ms-2">
+                        {
+                          p.applicants.filter(
+                            a => (p.statuses[a] || 'applied') === 'applied'
+                          ).length
+                        }{' '}
+                        new
+                      </span>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          </div>
+        )}
         <div className="row mb-3">
           <div className="col-md-6 mb-2">
             <input
