@@ -12,6 +12,12 @@ organizations get their own dashboard with basic analytics to manage postings,
 applications, and any pending resumes.
 Coding assessment tab for members only, with rankings shown on their profiles. The quiz now contains around twenty questions inspired by online sources and LeetCode problems.
 Simple JSON file database served via a small Node server.
+AI-powered candidate matching suggests the most relevant applicants for each posting.
+Role-specific assessments with ranking metrics help evaluate candidates effectively.
+Recruiter dashboards include posting management tools and analytics cards.
+Candidate profiles track skills, job preferences and peer ratings.
+Peer-to-peer networking and upskilling options foster community growth.
+Integration with popular communication tools like WhatsApp and email for easier follow-ups.
 Getting Started
 Install dependencies:
 npm install
