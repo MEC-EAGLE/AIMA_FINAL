@@ -15,6 +15,7 @@ export default function Apply() {
   const [assessment, setAssessment] = useState<CustomAssessment | null>(null);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [current, setCurrent] = useState(0);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -56,25 +57,33 @@ export default function Apply() {
   const prev = () => setStep(s => Math.max(s - 1, 1));
 
   const applyNow = async (score?: number) => {
-    const allPosts = await getPosts();
-    const idx = allPosts.findIndex(p => p.id === post.id);
-    if (!allPosts[idx].applicants.includes(user.email)) {
-      allPosts[idx].applicants.push(user.email);
-      allPosts[idx].statuses[user.email] = 'applied';
+    if (loading) return;
+    setLoading(true);
+    try {
+      const allPosts = await getPosts();
+      const idx = allPosts.findIndex(p => p.id === post.id);
+      if (!allPosts[idx].applicants.includes(user.email)) {
+        allPosts[idx].applicants.push(user.email);
+        allPosts[idx].statuses[user.email] = 'applied';
+      }
+      if (score !== undefined) {
+        if (!allPosts[idx].assessmentScores) allPosts[idx].assessmentScores = {};
+        allPosts[idx].assessmentScores[user.email] = score;
+      }
+      await savePosts(allPosts);
+      const allUsers = await getUsers();
+      const uIdx = allUsers.findIndex(u => u.email === user.email);
+      allUsers[uIdx].resume = resume;
+      allUsers[uIdx].phone = phone;
+      await saveUsers(allUsers);
+      localStorage.setItem('currentUser', JSON.stringify(allUsers[uIdx]));
+    } catch (err) {
+      console.error('Failed to submit application', err);
+    } finally {
+      setStep(assessment ? 5 : 4);
+      setLoading(false);
+      setTimeout(() => navigate('/jobs'), 2000);
     }
-    if (score !== undefined) {
-      if (!allPosts[idx].assessmentScores) allPosts[idx].assessmentScores = {};
-      allPosts[idx].assessmentScores[user.email] = score;
-    }
-    await savePosts(allPosts);
-    const allUsers = await getUsers();
-    const uIdx = allUsers.findIndex(u => u.email === user.email);
-    allUsers[uIdx].resume = resume;
-    allUsers[uIdx].phone = phone;
-    await saveUsers(allUsers);
-    localStorage.setItem('currentUser', JSON.stringify(allUsers[uIdx]));
-    setStep(assessment ? 5 : 4);
-    setTimeout(() => navigate('/jobs'), 2000);
   };
 
   const submit = () => {
@@ -171,8 +180,8 @@ export default function Apply() {
             <button className="btn btn-secondary me-2" onClick={prev}>
               Back
             </button>
-            <button className="btn btn-success" onClick={submit}>
-              Submit Application
+            <button className="btn btn-success" onClick={submit} disabled={loading}>
+              {loading ? 'Please wait...' : 'Submit Application'}
             </button>
           </div>
         )}
@@ -211,8 +220,16 @@ export default function Apply() {
                 </div>
               ))}
             </div>
-            <button className="btn btn-primary" type="submit" disabled={!answers[current]}>
-              {current < (assessment?.questions.length || 0) - 1 ? 'Next' : 'Submit'}
+            <button
+              className="btn btn-primary"
+              type="submit"
+              disabled={!answers[current] || loading}
+            >
+              {current < (assessment?.questions.length || 0) - 1
+                ? 'Next'
+                : loading
+                ? 'Submitting...'
+                : 'Submit'}
             </button>
           </form>
         )}

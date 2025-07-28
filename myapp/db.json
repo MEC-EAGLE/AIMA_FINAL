@@ -541,6 +541,96 @@
             "<javascript>"
           ],
           "answer": "<script>"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -559,6 +649,96 @@
             "Laravel"
           ],
           "answer": "Express"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -577,6 +757,96 @@
             "Laravel"
           ],
           "answer": "NumPy"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -595,6 +865,96 @@
             "Slack"
           ],
           "answer": "Figma"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -613,6 +973,96 @@
             "Python"
           ],
           "answer": "JavaScript"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -631,6 +1081,96 @@
             "Lambda"
           ],
           "answer": "CloudFormation"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -649,6 +1189,96 @@
             "Ruby"
           ],
           "answer": "Swift"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -667,6 +1297,96 @@
             "Secure Intranet Environment Management"
           ],
           "answer": "Security Information and Event Management"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -685,6 +1405,96 @@
             "Webpack"
           ],
           "answer": "Kubernetes"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -703,6 +1513,96 @@
             "Theano"
           ],
           "answer": "TensorFlow"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -721,6 +1621,96 @@
             "pwd"
           ],
           "answer": "top"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -739,6 +1729,96 @@
             "C#"
           ],
           "answer": "Solidity"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -757,6 +1837,96 @@
             "PNG"
           ],
           "answer": "FASTA"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -775,6 +1945,96 @@
             "Six Sigma"
           ],
           "answer": "Agile"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -793,6 +2053,96 @@
             "Swift"
           ],
           "answer": "C#"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -811,6 +2161,96 @@
             "Pug"
           ],
           "answer": "Liquid"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -829,6 +2269,96 @@
             "Go"
           ],
           "answer": "C++"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -847,6 +2377,96 @@
             "Vue"
           ],
           "answer": "Spark"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -865,6 +2485,96 @@
             "Unity"
           ],
           "answer": "ROS"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -883,6 +2593,96 @@
             "RPM"
           ],
           "answer": "ROI"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -901,6 +2701,96 @@
             "Dynamo"
           ],
           "answer": "Redis"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -919,6 +2809,96 @@
             "GAN"
           ],
           "answer": "NLP"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -937,6 +2917,96 @@
             "C"
           ],
           "answer": "Kotlin"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -955,6 +3025,96 @@
             "Node"
           ],
           "answer": "ARKit"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -973,6 +3133,96 @@
             "Client-Server"
           ],
           "answer": "Microservices"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     },
@@ -991,6 +3241,96 @@
             "Svelte"
           ],
           "answer": "Angular"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
         }
       ]
     }

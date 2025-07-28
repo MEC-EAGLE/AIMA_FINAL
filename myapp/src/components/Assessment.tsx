@@ -141,6 +141,7 @@ export default function Assessment() {
   const [submitted, setSubmitted] = useState(false);
   const [started, setStarted] = useState(false);
   const [current, setCurrent] = useState(0);
+  const [loading, setLoading] = useState(false);
   const [rankings, setRankings] = useState<User[]>([]);
 
   useEffect(() => {
@@ -155,18 +156,26 @@ export default function Assessment() {
   if (!user) return null;
 
   const submit = async () => {
-    let score = 0;
-    for (const q of QUESTIONS) {
-      if (answers[q.id] === q.answer) score += 1;
+    if (loading) return;
+    setLoading(true);
+    try {
+      let score = 0;
+      for (const q of QUESTIONS) {
+        if (answers[q.id] === q.answer) score += 1;
+      }
+      const all = await getUsers();
+      const idx = all.findIndex(u => u.email === user.email);
+      all[idx].codingScore = score;
+      await saveUsers(all);
+      localStorage.setItem('currentUser', JSON.stringify(all[idx]));
+      setUser(all[idx]);
+      setRankings(all);
+    } catch (err) {
+      console.error('Failed to save assessment', err);
+    } finally {
+      setSubmitted(true);
+      setLoading(false);
     }
-    const all = await getUsers();
-    const idx = all.findIndex(u => u.email === user.email);
-    all[idx].codingScore = score;
-    await saveUsers(all);
-    localStorage.setItem('currentUser', JSON.stringify(all[idx]));
-    setUser(all[idx]);
-    setRankings(all);
-    setSubmitted(true);
   };
 
   const next = () => {
@@ -235,9 +244,13 @@ export default function Assessment() {
               <button
                 type="submit"
                 className="btn btn-primary"
-                disabled={!answers[QUESTIONS[current].id]}
+                disabled={!answers[QUESTIONS[current].id] || loading}
               >
-                {current < QUESTIONS.length - 1 ? 'Next' : 'Submit'}
+                {current < QUESTIONS.length - 1
+                  ? 'Next'
+                  : loading
+                  ? 'Submitting...'
+                  : 'Submit'}
               </button>
             </form>
           )
