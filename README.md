@@ -25,7 +25,7 @@ Getting Started
 Install dependencies:
 npm install
 Copy `myapp/.env.example` to `myapp/.env` and add your Gmail address and app password.
-The database now includes over 25 sample tech job posts so no external API keys are required.
+The database now includes over 25 sample tech job posts so no external API keys are required. All of these listings are owned by a demo organization account (`jobs2@gmail.com`, password `IloveN001!@#`) that you can use to explore the recruiter dashboard.
 Start the local database API:
 npm run server
 To wipe all demo data, run:

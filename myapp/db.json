@@ -28,15 +28,40 @@
         "HTML",
         "C++"
       ]
+    },
+    {
+      "email": "jobs2@gmail.com",
+      "password": "fafe6e8dcccdce30c121ec35fa69c16cd489ab07ebd2f0f8dd7e882f206de976",
+      "phone": "1234567890",
+      "contactName": "Jobs Org",
+      "type": "org",
+      "verified": true,
+      "verificationCode": "",
+      "followers": [],
+      "groups": [],
+      "docs": [],
+      "profileRequests": [],
+      "profileShares": [],
+      "recommendations": [],
+      "bio": "",
+      "events": [],
+      "notes": [],
+      "snoozed": false,
+      "blocked": [],
+      "dmContacts": [],
+      "dmInvites": [],
+      "resetCode": "",
+      "ratings": [],
+      "peopleMap": []
     }
   ],
   "posts": [
     {
       "id": 1,
-      "authorEmail": "hr@techcorp.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Frontend Engineer",
-      "description": "Build and maintain responsive web interfaces.",
+      "description": "Build and maintain responsive web interfaces that scale across browsers. Collaborate with designers to translate mockups into pixel-perfect components and optimize performance of React applications.",
       "postType": "job",
       "tags": [
         "javascript",
@@ -49,10 +74,10 @@
     },
     {
       "id": 2,
-      "authorEmail": "careers@innovate.ai",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Backend Developer",
-      "description": "Design scalable APIs and services using Node.js.",
+      "description": "Design and implement RESTful APIs and microservices using Node.js and TypeScript. Maintain service reliability with thorough testing and collaborate closely with frontend teams to deliver new product features.",
       "postType": "job",
       "tags": [
         "node",
@@ -65,10 +90,10 @@
     },
     {
       "id": 3,
-      "authorEmail": "jobs@datasci.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Data Scientist",
-      "description": "Analyze datasets to drive product decisions.",
+      "description": "Analyze complex datasets to uncover trends that inform product strategy. Build predictive models, visualize insights for stakeholders, and work alongside engineers to deploy data-driven features.",
       "postType": "job",
       "tags": [
         "python",
@@ -81,10 +106,10 @@
     },
     {
       "id": 4,
-      "authorEmail": "design@creativelabs.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "UX Designer",
-      "description": "Craft intuitive user experiences for web apps.",
+      "description": "Craft intuitive user experiences for web and mobile applications. Conduct user research, build wireframes, and iterate on prototypes to deliver delightful products across platforms.",
       "postType": "job",
       "tags": [
         "ux",
@@ -97,10 +122,10 @@
     },
     {
       "id": 5,
-      "authorEmail": "talent@stackmagic.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Full Stack Developer",
-      "description": "Work across the stack to deliver new features.",
+      "description": "Work across the entire stack to deliver new features from concept to deployment. You will build performant UIs, develop backend APIs, and help design the overall architecture of our products.",
       "postType": "job",
       "tags": [
         "javascript",
@@ -113,10 +138,10 @@
     },
     {
       "id": 6,
-      "authorEmail": "careers@cloudworks.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Cloud Infrastructure Engineer",
-      "description": "Manage and optimize cloud deployments on AWS.",
+      "description": "Manage and optimize cloud deployments on AWS. Automate infrastructure provisioning, monitor system health, and ensure security best practices across our production environment.",
       "postType": "job",
       "tags": [
         "aws",
@@ -129,10 +154,10 @@
     },
     {
       "id": 7,
-      "authorEmail": "jobs@mobilewave.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "iOS Developer",
-      "description": "Create native applications using Swift and SwiftUI.",
+      "description": "Create and maintain native iOS applications using Swift and SwiftUI. Work with product managers to deliver polished mobile experiences and integrate with our backend services.",
       "postType": "job",
       "tags": [
         "ios",
@@ -145,10 +170,10 @@
     },
     {
       "id": 8,
-      "authorEmail": "hiring@cybersecpro.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Security Analyst",
-      "description": "Monitor networks and respond to security incidents.",
+      "description": "Monitor networks for threats, investigate alerts, and respond to security incidents. Help improve our posture by performing regular audits and educating teams on best practices.",
       "postType": "job",
       "tags": [
         "security",
@@ -161,10 +186,10 @@
     },
     {
       "id": 9,
-      "authorEmail": "jobs@cloudworks.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "DevOps Engineer",
-      "description": "Automate CI/CD pipelines and manage Kubernetes clusters.",
+      "description": "Automate CI/CD pipelines and manage Kubernetes clusters. You will build tooling around our deployment workflows and ensure reliability across environments.",
       "postType": "job",
       "tags": [
         "devops",
@@ -177,10 +202,10 @@
     },
     {
       "id": 10,
-      "authorEmail": "talent@aihub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Machine Learning Engineer",
-      "description": "Develop ML models for real world applications.",
+      "description": "Develop, train, and deploy machine learning models for real-world applications. Collaborate with data engineers to build scalable pipelines and experiment with state-of-the-art algorithms.",
       "postType": "job",
       "tags": [
         "python",
@@ -193,10 +218,10 @@
     },
     {
       "id": 11,
-      "authorEmail": "jobs@edgecompute.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Systems Engineer",
-      "description": "Build highly available edge computing systems.",
+      "description": "Build highly available systems to run our edge computing platform. You will design reliable architectures, implement monitoring, and troubleshoot production issues across distributed environments.",
       "postType": "job",
       "tags": [
         "linux",
@@ -209,10 +234,10 @@
     },
     {
       "id": 12,
-      "authorEmail": "hr@blockchainhub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Blockchain Developer",
-      "description": "Implement smart contracts on Ethereum.",
+      "description": "Implement and test smart contracts on Ethereum using Solidity. Maintain blockchain infrastructure and collaborate on decentralized application features.",
       "postType": "job",
       "tags": [
         "solidity",
@@ -225,10 +250,10 @@
     },
     {
       "id": 13,
-      "authorEmail": "careers@medtech.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Bioinformatics Engineer",
-      "description": "Develop algorithms for genomic analysis.",
+      "description": "Develop efficient algorithms for genomic data analysis and pipeline automation. Collaborate with scientists to interpret results and build tools that advance medical research.",
       "postType": "job",
       "tags": [
         "python",
@@ -241,10 +266,10 @@
     },
     {
       "id": 14,
-      "authorEmail": "jobs@finapps.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "FinTech Product Manager",
-      "description": "Lead product strategy for mobile payment solutions.",
+      "description": "Lead product strategy for our mobile payment solutions. You will define requirements, coordinate engineering sprints, and analyze customer feedback to guide the roadmap.",
       "postType": "job",
       "tags": [
         "product",
@@ -257,10 +282,10 @@
     },
     {
       "id": 15,
-      "authorEmail": "hiring@vrstudio.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Unity Developer",
-      "description": "Create immersive VR experiences in Unity.",
+      "description": "Create immersive VR and AR experiences in Unity. You will prototype gameplay mechanics, optimize performance, and collaborate with artists to bring new worlds to life.",
       "postType": "job",
       "tags": [
         "unity",
@@ -273,10 +298,10 @@
     },
     {
       "id": 16,
-      "authorEmail": "talent@ecommercehub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Shopify Developer",
-      "description": "Build custom themes and apps for Shopify stores.",
+      "description": "Build custom themes and apps for Shopify stores. Work closely with merchants to tailor solutions, extend storefront functionality, and ensure smooth deployments.",
       "postType": "job",
       "tags": [
         "shopify",
@@ -289,10 +314,10 @@
     },
     {
       "id": 17,
-      "authorEmail": "recruit@smartauto.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Embedded Software Engineer",
-      "description": "Develop firmware for autonomous vehicle systems.",
+      "description": "Develop firmware for autonomous vehicle systems. Write performance-critical code in C++ and work closely with hardware teams to integrate new sensors and controllers.",
       "postType": "job",
       "tags": [
         "c++",
@@ -305,10 +330,10 @@
     },
     {
       "id": 18,
-      "authorEmail": "jobs@bigdata.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Data Engineer",
-      "description": "Build data pipelines using Spark and Hadoop.",
+      "description": "Build and maintain data pipelines using Spark and Hadoop. Ensure data quality, optimize ETL jobs, and collaborate with analysts to provide reliable datasets for reporting.",
       "postType": "job",
       "tags": [
         "spark",
@@ -321,10 +346,10 @@
     },
     {
       "id": 19,
-      "authorEmail": "careers@roboticslab.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Robotics Software Engineer",
-      "description": "Program autonomous robots with ROS.",
+      "description": "Program autonomous robots using ROS and C++. You will implement navigation algorithms, integrate sensors, and test robotic platforms in real-world environments.",
       "postType": "job",
       "tags": [
         "ros",
@@ -337,10 +362,10 @@
     },
     {
       "id": 20,
-      "authorEmail": "hiring@adsupply.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Ad Operations Specialist",
-      "description": "Optimize digital campaigns across multiple platforms.",
+      "description": "Optimize digital campaigns across search, display, and social platforms. Manage tracking pixels, analyze performance metrics, and iterate quickly to improve ROI.",
       "postType": "job",
       "tags": [
         "marketing",
@@ -353,10 +378,10 @@
     },
     {
       "id": 21,
-      "authorEmail": "careers@gamestudio.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Game Backend Engineer",
-      "description": "Design scalable multiplayer game services.",
+      "description": "Design scalable backend services for multiplayer games. Implement real-time features, maintain low-latency infrastructure, and coordinate deployments with the devops team.",
       "postType": "job",
       "tags": [
         "node",
@@ -369,10 +394,10 @@
     },
     {
       "id": 22,
-      "authorEmail": "jobs@assistive.ai",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "NLP Engineer",
-      "description": "Build conversational AI features using LLMs.",
+      "description": "Build conversational AI features using large language models. Create training pipelines, evaluate model accuracy, and integrate language understanding into user-facing applications.",
       "postType": "job",
       "tags": [
         "nlp",
@@ -385,10 +410,10 @@
     },
     {
       "id": 23,
-      "authorEmail": "hr@mobilesolutions.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Android Developer",
-      "description": "Develop Android apps using Kotlin.",
+      "description": "Develop Android applications using Kotlin and Jetpack libraries. Collaborate with designers to craft smooth user experiences and publish releases to the Play Store.",
       "postType": "job",
       "tags": [
         "android",
@@ -401,10 +426,10 @@
     },
     {
       "id": 24,
-      "authorEmail": "careers@arstartup.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "AR/VR Software Engineer",
-      "description": "Create augmented reality features for mobile apps.",
+      "description": "Create augmented reality features for mobile applications. Prototype spatial experiences, integrate 3D assets, and work with Unity developers to push the boundaries of AR.",
       "postType": "job",
       "tags": [
         "ar",
@@ -417,10 +442,10 @@
     },
     {
       "id": 25,
-      "authorEmail": "jobs@microservice.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Microservices Architect",
-      "description": "Design service-oriented architectures at scale.",
+      "description": "Design service-oriented architectures at scale. Set technical standards, mentor teams on best practices, and lead efforts to transition legacy systems into independent services.",
       "postType": "job",
       "tags": [
         "architecture",
