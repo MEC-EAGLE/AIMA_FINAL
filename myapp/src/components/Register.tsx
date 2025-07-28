@@ -13,6 +13,7 @@ export default function Register() {
   const [resume, setResume] = useState('');
   const [type, setType] = useState('member');
   const [skills, setSkills] = useState('');
+  const [prefs, setPrefs] = useState('');
   const [agree, setAgree] = useState(false);
   const navigate = useNavigate();
 
@@ -74,7 +75,6 @@ export default function Register() {
       profileRequests: [],
       profileShares: [],
       recommendations: [],
-      resume,
       bio: '',
       events: [],
       notes: [],
@@ -83,9 +83,15 @@ export default function Register() {
       dmContacts: [],
       dmInvites: [],
       resetCode: '',
+      ratings: [],
     };
     if (type === 'member') {
       newUser.skills = skills
+        .split(',')
+        .map((s: string) => s.trim())
+        .filter((s: string) => s);
+      newUser.resume = resume;
+      newUser.preferences = prefs
         .split(',')
         .map((s: string) => s.trim())
         .filter((s: string) => s);
@@ -140,25 +146,27 @@ export default function Register() {
             required
           />
         </div>
-        <div className="mb-3">
-          <label className="form-label">Resume (optional)</label>
-          <input
-            type="file"
-            accept=".pdf,.doc,.docx"
-            className="form-control"
-            onChange={e => {
-              const f = e.target.files?.[0];
-              if (!f) return;
-              if (f.size > 5 * 1024 * 1024) {
-                alert('Resume must be under 5MB');
-                return;
-              }
-              const reader = new FileReader();
-              reader.onload = () => setResume(reader.result as string);
-              reader.readAsDataURL(f);
-            }}
-          />
-        </div>
+        {type === 'member' && (
+          <div className="mb-3">
+            <label className="form-label">Resume (optional)</label>
+            <input
+              type="file"
+              accept=".pdf,.doc,.docx"
+              className="form-control"
+              onChange={e => {
+                const f = e.target.files?.[0];
+                if (!f) return;
+                if (f.size > 5 * 1024 * 1024) {
+                  alert('Resume must be under 5MB');
+                  return;
+                }
+                const reader = new FileReader();
+                reader.onload = () => setResume(reader.result as string);
+                reader.readAsDataURL(f);
+              }}
+            />
+          </div>
+        )}
         <div className="mb-3">
           <label className="form-label">Password</label>
           <div className="input-group">
@@ -215,6 +223,16 @@ export default function Register() {
               className="form-control"
               value={skills}
               onChange={e => setSkills(e.target.value)}
+            />
+          </div>
+        )}
+        {type === 'member' && (
+          <div className="mb-3">
+            <label className="form-label">Job Preferences (comma separated)</label>
+            <input
+              className="form-control"
+              value={prefs}
+              onChange={e => setPrefs(e.target.value)}
             />
           </div>
         )}

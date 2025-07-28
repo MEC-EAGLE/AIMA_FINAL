@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Verify from './components/Verify';
 import Dashboard from './components/Dashboard';
+import OrgDashboard from './components/OrgDashboard';
 import Create from './components/Create';
 import Community from './components/Community';
 import Search from './components/Search';
@@ -22,6 +23,9 @@ import Interview from './components/Interview';
 import Forgot from './components/Forgot';
 import Settings from './components/Settings';
 import Apply from './components/Apply';
+import Assessment from './components/Assessment';
+import CreateAssessment from './components/CreateAssessment';
+import JobDetail from './components/JobDetail';
 
 function App() {
   return (
@@ -32,10 +36,12 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/forgot" element={<Forgot />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/org-dashboard" element={<OrgDashboard />} />
         <Route path="/create" element={<Create />} />
         <Route path="/community" element={<Community />} />
         <Route path="/search" element={<Search />} />
         <Route path="/jobs" element={<Jobs />} />
+        <Route path="/jobs/:id" element={<JobDetail />} />
         <Route path="/verify" element={<Verify />} />
         <Route path="/chat/:email" element={<Chat />} />
         <Route path="/profile/:email" element={<Profile />} />
@@ -45,6 +51,8 @@ function App() {
         <Route path="/interview" element={<Interview />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/apply/:id" element={<Apply />} />
+        <Route path="/assessment" element={<Assessment />} />
+        <Route path="/create-assessment" element={<CreateAssessment />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

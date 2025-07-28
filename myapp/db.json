@@ -28,15 +28,40 @@
         "HTML",
         "C++"
       ]
+    },
+    {
+      "email": "jobs2@gmail.com",
+      "password": "fafe6e8dcccdce30c121ec35fa69c16cd489ab07ebd2f0f8dd7e882f206de976",
+      "phone": "1234567890",
+      "contactName": "Jobs Org",
+      "type": "org",
+      "verified": true,
+      "verificationCode": "",
+      "followers": [],
+      "groups": [],
+      "docs": [],
+      "profileRequests": [],
+      "profileShares": [],
+      "recommendations": [],
+      "bio": "",
+      "events": [],
+      "notes": [],
+      "snoozed": false,
+      "blocked": [],
+      "dmContacts": [],
+      "dmInvites": [],
+      "resetCode": "",
+      "ratings": [],
+      "peopleMap": []
     }
   ],
   "posts": [
     {
       "id": 1,
-      "authorEmail": "hr@techcorp.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Frontend Engineer",
-      "description": "Build and maintain responsive web interfaces.",
+      "description": "Build and maintain responsive web interfaces that scale across browsers. Collaborate with designers to translate mockups into pixel-perfect components and optimize performance of React applications.",
       "postType": "job",
       "tags": [
         "javascript",
@@ -45,14 +70,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 1,
+      "assessmentScores": {}
     },
     {
       "id": 2,
-      "authorEmail": "careers@innovate.ai",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Backend Developer",
-      "description": "Design scalable APIs and services using Node.js.",
+      "description": "Design and implement RESTful APIs and microservices using Node.js and TypeScript. Maintain service reliability with thorough testing and collaborate closely with frontend teams to deliver new product features.",
       "postType": "job",
       "tags": [
         "node",
@@ -61,14 +88,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 2,
+      "assessmentScores": {}
     },
     {
       "id": 3,
-      "authorEmail": "jobs@datasci.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Data Scientist",
-      "description": "Analyze datasets to drive product decisions.",
+      "description": "Analyze complex datasets to uncover trends that inform product strategy. Build predictive models, visualize insights for stakeholders, and work alongside engineers to deploy data-driven features.",
       "postType": "job",
       "tags": [
         "python",
@@ -77,14 +106,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 3,
+      "assessmentScores": {}
     },
     {
       "id": 4,
-      "authorEmail": "design@creativelabs.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "UX Designer",
-      "description": "Craft intuitive user experiences for web apps.",
+      "description": "Craft intuitive user experiences for web and mobile applications. Conduct user research, build wireframes, and iterate on prototypes to deliver delightful products across platforms.",
       "postType": "job",
       "tags": [
         "ux",
@@ -93,14 +124,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 4,
+      "assessmentScores": {}
     },
     {
       "id": 5,
-      "authorEmail": "talent@stackmagic.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Full Stack Developer",
-      "description": "Work across the stack to deliver new features.",
+      "description": "Work across the entire stack to deliver new features from concept to deployment. You will build performant UIs, develop backend APIs, and help design the overall architecture of our products.",
       "postType": "job",
       "tags": [
         "javascript",
@@ -109,14 +142,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 5,
+      "assessmentScores": {}
     },
     {
       "id": 6,
-      "authorEmail": "careers@cloudworks.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Cloud Infrastructure Engineer",
-      "description": "Manage and optimize cloud deployments on AWS.",
+      "description": "Manage and optimize cloud deployments on AWS. Automate infrastructure provisioning, monitor system health, and ensure security best practices across our production environment.",
       "postType": "job",
       "tags": [
         "aws",
@@ -125,14 +160,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 6,
+      "assessmentScores": {}
     },
     {
       "id": 7,
-      "authorEmail": "jobs@mobilewave.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "iOS Developer",
-      "description": "Create native applications using Swift and SwiftUI.",
+      "description": "Create and maintain native iOS applications using Swift and SwiftUI. Work with product managers to deliver polished mobile experiences and integrate with our backend services.",
       "postType": "job",
       "tags": [
         "ios",
@@ -141,14 +178,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 7,
+      "assessmentScores": {}
     },
     {
       "id": 8,
-      "authorEmail": "hiring@cybersecpro.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Security Analyst",
-      "description": "Monitor networks and respond to security incidents.",
+      "description": "Monitor networks for threats, investigate alerts, and respond to security incidents. Help improve our posture by performing regular audits and educating teams on best practices.",
       "postType": "job",
       "tags": [
         "security",
@@ -157,14 +196,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 8,
+      "assessmentScores": {}
     },
     {
       "id": 9,
-      "authorEmail": "jobs@cloudworks.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "DevOps Engineer",
-      "description": "Automate CI/CD pipelines and manage Kubernetes clusters.",
+      "description": "Automate CI/CD pipelines and manage Kubernetes clusters. You will build tooling around our deployment workflows and ensure reliability across environments.",
       "postType": "job",
       "tags": [
         "devops",
@@ -173,14 +214,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 9,
+      "assessmentScores": {}
     },
     {
       "id": 10,
-      "authorEmail": "talent@aihub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Machine Learning Engineer",
-      "description": "Develop ML models for real world applications.",
+      "description": "Develop, train, and deploy machine learning models for real-world applications. Collaborate with data engineers to build scalable pipelines and experiment with state-of-the-art algorithms.",
       "postType": "job",
       "tags": [
         "python",
@@ -189,14 +232,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 10,
+      "assessmentScores": {}
     },
     {
       "id": 11,
-      "authorEmail": "jobs@edgecompute.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Systems Engineer",
-      "description": "Build highly available edge computing systems.",
+      "description": "Build highly available systems to run our edge computing platform. You will design reliable architectures, implement monitoring, and troubleshoot production issues across distributed environments.",
       "postType": "job",
       "tags": [
         "linux",
@@ -205,14 +250,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 11,
+      "assessmentScores": {}
     },
     {
       "id": 12,
-      "authorEmail": "hr@blockchainhub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Blockchain Developer",
-      "description": "Implement smart contracts on Ethereum.",
+      "description": "Implement and test smart contracts on Ethereum using Solidity. Maintain blockchain infrastructure and collaborate on decentralized application features.",
       "postType": "job",
       "tags": [
         "solidity",
@@ -221,14 +268,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 12,
+      "assessmentScores": {}
     },
     {
       "id": 13,
-      "authorEmail": "careers@medtech.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Bioinformatics Engineer",
-      "description": "Develop algorithms for genomic analysis.",
+      "description": "Develop efficient algorithms for genomic data analysis and pipeline automation. Collaborate with scientists to interpret results and build tools that advance medical research.",
       "postType": "job",
       "tags": [
         "python",
@@ -237,14 +286,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 13,
+      "assessmentScores": {}
     },
     {
       "id": 14,
-      "authorEmail": "jobs@finapps.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "FinTech Product Manager",
-      "description": "Lead product strategy for mobile payment solutions.",
+      "description": "Lead product strategy for our mobile payment solutions. You will define requirements, coordinate engineering sprints, and analyze customer feedback to guide the roadmap.",
       "postType": "job",
       "tags": [
         "product",
@@ -253,14 +304,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 14,
+      "assessmentScores": {}
     },
     {
       "id": 15,
-      "authorEmail": "hiring@vrstudio.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Unity Developer",
-      "description": "Create immersive VR experiences in Unity.",
+      "description": "Create immersive VR and AR experiences in Unity. You will prototype gameplay mechanics, optimize performance, and collaborate with artists to bring new worlds to life.",
       "postType": "job",
       "tags": [
         "unity",
@@ -269,14 +322,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 15,
+      "assessmentScores": {}
     },
     {
       "id": 16,
-      "authorEmail": "talent@ecommercehub.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Shopify Developer",
-      "description": "Build custom themes and apps for Shopify stores.",
+      "description": "Build custom themes and apps for Shopify stores. Work closely with merchants to tailor solutions, extend storefront functionality, and ensure smooth deployments.",
       "postType": "job",
       "tags": [
         "shopify",
@@ -285,14 +340,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 16,
+      "assessmentScores": {}
     },
     {
       "id": 17,
-      "authorEmail": "recruit@smartauto.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Embedded Software Engineer",
-      "description": "Develop firmware for autonomous vehicle systems.",
+      "description": "Develop firmware for autonomous vehicle systems. Write performance-critical code in C++ and work closely with hardware teams to integrate new sensors and controllers.",
       "postType": "job",
       "tags": [
         "c++",
@@ -301,14 +358,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 17,
+      "assessmentScores": {}
     },
     {
       "id": 18,
-      "authorEmail": "jobs@bigdata.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Data Engineer",
-      "description": "Build data pipelines using Spark and Hadoop.",
+      "description": "Build and maintain data pipelines using Spark and Hadoop. Ensure data quality, optimize ETL jobs, and collaborate with analysts to provide reliable datasets for reporting.",
       "postType": "job",
       "tags": [
         "spark",
@@ -317,14 +376,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 18,
+      "assessmentScores": {}
     },
     {
       "id": 19,
-      "authorEmail": "careers@roboticslab.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Robotics Software Engineer",
-      "description": "Program autonomous robots with ROS.",
+      "description": "Program autonomous robots using ROS and C++. You will implement navigation algorithms, integrate sensors, and test robotic platforms in real-world environments.",
       "postType": "job",
       "tags": [
         "ros",
@@ -333,14 +394,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 19,
+      "assessmentScores": {}
     },
     {
       "id": 20,
-      "authorEmail": "hiring@adsupply.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Ad Operations Specialist",
-      "description": "Optimize digital campaigns across multiple platforms.",
+      "description": "Optimize digital campaigns across search, display, and social platforms. Manage tracking pixels, analyze performance metrics, and iterate quickly to improve ROI.",
       "postType": "job",
       "tags": [
         "marketing",
@@ -349,14 +412,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 20,
+      "assessmentScores": {}
     },
     {
       "id": 21,
-      "authorEmail": "careers@gamestudio.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Game Backend Engineer",
-      "description": "Design scalable multiplayer game services.",
+      "description": "Design scalable backend services for multiplayer games. Implement real-time features, maintain low-latency infrastructure, and coordinate deployments with the devops team.",
       "postType": "job",
       "tags": [
         "node",
@@ -365,14 +430,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 21,
+      "assessmentScores": {}
     },
     {
       "id": 22,
-      "authorEmail": "jobs@assistive.ai",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "NLP Engineer",
-      "description": "Build conversational AI features using LLMs.",
+      "description": "Build conversational AI features using large language models. Create training pipelines, evaluate model accuracy, and integrate language understanding into user-facing applications.",
       "postType": "job",
       "tags": [
         "nlp",
@@ -381,14 +448,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 22,
+      "assessmentScores": {}
     },
     {
       "id": 23,
-      "authorEmail": "hr@mobilesolutions.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Android Developer",
-      "description": "Develop Android apps using Kotlin.",
+      "description": "Develop Android applications using Kotlin and Jetpack libraries. Collaborate with designers to craft smooth user experiences and publish releases to the Play Store.",
       "postType": "job",
       "tags": [
         "android",
@@ -397,14 +466,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 23,
+      "assessmentScores": {}
     },
     {
       "id": 24,
-      "authorEmail": "careers@arstartup.com",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "AR/VR Software Engineer",
-      "description": "Create augmented reality features for mobile apps.",
+      "description": "Create augmented reality features for mobile applications. Prototype spatial experiences, integrate 3D assets, and work with Unity developers to push the boundaries of AR.",
       "postType": "job",
       "tags": [
         "ar",
@@ -413,14 +484,16 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 24,
+      "assessmentScores": {}
     },
     {
       "id": 25,
-      "authorEmail": "jobs@microservice.io",
+      "authorEmail": "jobs2@gmail.com",
       "authorType": "org",
       "title": "Microservices Architect",
-      "description": "Design service-oriented architectures at scale.",
+      "description": "Design service-oriented architectures at scale. Set technical standards, mentor teams on best practices, and lead efforts to transition legacy systems into independent services.",
       "postType": "job",
       "tags": [
         "architecture",
@@ -429,7 +502,2837 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 25,
+      "assessmentScores": {}
+    },
+    {
+      "id": 26,
+      "authorEmail": "jobs2@gmail.com",
+      "authorType": "org",
+      "title": "Senior Full Stack Developer",
+      "description": "\"Full job description\\nCompany Overview\\n\\nLawlabs Inc. is a dynamic team based Ontario, comprised of legal and tech professionals dedicated to revolutionizing the property closing experience. Our mission is to create a seamless and optimized conveyancing process that meets the evolving needs of lawyers and clerks while upholding our core values of trust, integrity, and excellence.\\n\\nSummary\\n\\nWe are looking for a skilled Senior Full Stack Developer to design, implement and maintainfunctional and user-friendly web applications. The ideal candidate will be proficient in bothfront-end and back-end technologies, with a strong understanding of software development principles.\\n\\nAs a Senior Full Stack Developer, you will collaborate with cross-functional teams to deliver high-quality solutions that meet our clients' needs.\\n\\nResponsibilities:\\n\\nDevelop and maintain robust web applications using modern technologies\\nCollaborate with designers and other developers to implement user-friendly interfaces\\nWrite clean, efficient, and maintainable code\\nPerform code reviews and provide constructive feedback to peers\\nTroubleshoot and debug issues to ensure optimal performance and reliability\\nStay up-to-date with emerging technologies and industry trends\\nSetting architectural standards and approaches across the project\\nRequirements:\\n\\nBachelor's degree in Computer Science, Engineering, or a related field\\nAt least six (6) years\\u2019 experience as a Full Stack Developer or similar role\\nProficiency in front-end technologies such as HTML, CSS, JavaScript, and the Angular framework\\n\\nMasterful understanding of back-end technologies such as C#\\nExperience with databases such as MySQL, PostgreSQL, MongoDB, etc.\\nFamiliarity with version control systems (e.g. Git)\\nExcellent communication and collaboration skills\\nAbility to work independently and as part of a team\\nStrong problem-solving and analytical skills\\nNice to Have:\\n\\nExperience with AWS\\nKnowledge of DevOps principles and tools\\nFamiliarity with containerization and orchestration technologies (e.g., Docker, Kubernetes)\\n\\nUnderstanding of Agile development methodologies\\nExperience with Microsoft WORD/Working with XML\\nOur Stack:\\n\\nAngular 19, Typescript, RXJS, NGXS, Tailwind, Flexbox, CSS Grid.\\nGoogle Cloud Systems, Firebase, BigQuery, Functions, Docker, Kubernetes.\\nIf you're passionate about leveraging technology to improve legal processes and want to be part of a dedicated team making a difference, we invite you to apply today at Lawlabs Inc.! Your next career adventure awaits!\\n\\nJob Types: Full-time, Permanent\\n\\nPay: $100,000.00-$130,000.00 per year\\n\\nBenefits:\\n\\nDental care\\nPaid time off\\nVision care\\nEducation:\\n\\nBachelor's (Required)\\nWork Location: Remote\\n\"",
+      "postType": "job",
+      "tags": [
+        "fullstack",
+        "angular",
+        "csharp"
+      ],
+      "applicants": [],
+      "statuses": {},
+      "comments": [],
+      "assessmentId": 26,
+      "assessmentScores": {}
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 1,
+      "title": "Frontend Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which HTML tag is used to include JavaScript code?",
+          "options": [
+            "<script>",
+            "<js>",
+            "<code>",
+            "<javascript>"
+          ],
+          "answer": "<script>"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 2,
+      "title": "Backend Developer Quiz",
+      "questions": [
+        {
+          "question": "Which Node.js framework is popular for building APIs?",
+          "options": [
+            "Express",
+            "Django",
+            "Rails",
+            "Laravel"
+          ],
+          "answer": "Express"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 3,
+      "title": "Data Scientist Quiz",
+      "questions": [
+        {
+          "question": "Which library is commonly used for data analysis in Python?",
+          "options": [
+            "NumPy",
+            "React",
+            "Angular",
+            "Laravel"
+          ],
+          "answer": "NumPy"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 4,
+      "title": "UX Designer Quiz",
+      "questions": [
+        {
+          "question": "Which tool is primarily used for interface design prototypes?",
+          "options": [
+            "Figma",
+            "Jira",
+            "Photoshop",
+            "Slack"
+          ],
+          "answer": "Figma"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 5,
+      "title": "Full Stack Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language can run on both client and server?",
+          "options": [
+            "JavaScript",
+            "C++",
+            "Java",
+            "Python"
+          ],
+          "answer": "JavaScript"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 6,
+      "title": "Cloud Infrastructure Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which AWS service manages infrastructure as code templates?",
+          "options": [
+            "CloudFormation",
+            "S3",
+            "RDS",
+            "Lambda"
+          ],
+          "answer": "CloudFormation"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 7,
+      "title": "iOS Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is mainly used for iOS apps?",
+          "options": [
+            "Swift",
+            "Kotlin",
+            "C#",
+            "Ruby"
+          ],
+          "answer": "Swift"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 8,
+      "title": "Security Analyst Quiz",
+      "questions": [
+        {
+          "question": "What does SIEM stand for?",
+          "options": [
+            "Security Information and Event Management",
+            "Simple Internet Email Method",
+            "System Integrity Monitor",
+            "Secure Intranet Environment Management"
+          ],
+          "answer": "Security Information and Event Management"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 9,
+      "title": "DevOps Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which tool orchestrates containers?",
+          "options": [
+            "Kubernetes",
+            "Git",
+            "Nginx",
+            "Webpack"
+          ],
+          "answer": "Kubernetes"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 10,
+      "title": "Machine Learning Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which library was created by Google for deep learning?",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit",
+            "Theano"
+          ],
+          "answer": "TensorFlow"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 11,
+      "title": "Systems Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which Linux command lists running processes?",
+          "options": [
+            "top",
+            "ls",
+            "grep",
+            "pwd"
+          ],
+          "answer": "top"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 12,
+      "title": "Blockchain Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is used for Ethereum smart contracts?",
+          "options": [
+            "Solidity",
+            "Rust",
+            "Python",
+            "C#"
+          ],
+          "answer": "Solidity"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 13,
+      "title": "Bioinformatics Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which format stores DNA sequences?",
+          "options": [
+            "FASTA",
+            "CSV",
+            "JSON",
+            "PNG"
+          ],
+          "answer": "FASTA"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 14,
+      "title": "FinTech Product Manager Quiz",
+      "questions": [
+        {
+          "question": "Which methodology involves iterative sprints?",
+          "options": [
+            "Agile",
+            "Waterfall",
+            "Kanban",
+            "Six Sigma"
+          ],
+          "answer": "Agile"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 15,
+      "title": "Unity Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is standard for Unity scripting?",
+          "options": [
+            "C#",
+            "Java",
+            "Python",
+            "Swift"
+          ],
+          "answer": "C#"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 16,
+      "title": "Shopify Developer Quiz",
+      "questions": [
+        {
+          "question": "What template language powers Shopify themes?",
+          "options": [
+            "Liquid",
+            "Mustache",
+            "EJS",
+            "Pug"
+          ],
+          "answer": "Liquid"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 17,
+      "title": "Embedded Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which language is common in embedded systems?",
+          "options": [
+            "C++",
+            "Ruby",
+            "PHP",
+            "Go"
+          ],
+          "answer": "C++"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 18,
+      "title": "Data Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which framework is used for big data with Hadoop?",
+          "options": [
+            "Spark",
+            "Angular",
+            "Flask",
+            "Vue"
+          ],
+          "answer": "Spark"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 19,
+      "title": "Robotics Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which middleware is widely used in robotics with C++?",
+          "options": [
+            "ROS",
+            "TensorFlow",
+            "Docker",
+            "Unity"
+          ],
+          "answer": "ROS"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 20,
+      "title": "Ad Operations Specialist Quiz",
+      "questions": [
+        {
+          "question": "Which metric indicates ad performance online?",
+          "options": [
+            "ROI",
+            "RAM",
+            "FPS",
+            "RPM"
+          ],
+          "answer": "ROI"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 21,
+      "title": "Game Backend Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which database often backs online games for realtime data?",
+          "options": [
+            "Redis",
+            "SQLite",
+            "Oracle",
+            "Dynamo"
+          ],
+          "answer": "Redis"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 22,
+      "title": "NLP Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which field of AI focuses on human language?",
+          "options": [
+            "NLP",
+            "CV",
+            "RL",
+            "GAN"
+          ],
+          "answer": "NLP"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 23,
+      "title": "Android Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is used for Android development?",
+          "options": [
+            "Kotlin",
+            "Swift",
+            "Ruby",
+            "C"
+          ],
+          "answer": "Kotlin"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 24,
+      "title": "AR/VR Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which technology enables augmented reality experiences?",
+          "options": [
+            "ARKit",
+            "TensorFlow",
+            "Bootstrap",
+            "Node"
+          ],
+          "answer": "ARKit"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 25,
+      "title": "Microservices Architect Quiz",
+      "questions": [
+        {
+          "question": "Which pattern decomposes apps into small services?",
+          "options": [
+            "Microservices",
+            "Monolith",
+            "SOA",
+            "Client-Server"
+          ],
+          "answer": "Microservices"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 26,
+      "title": "Senior Full Stack Developer Quiz",
+      "questions": [
+        {
+          "question": "Which frontend framework uses components and RxJS?",
+          "options": [
+            "Angular",
+            "Vue",
+            "React",
+            "Svelte"
+          ],
+          "answer": "Angular"
+        },
+        {
+          "question": "What does CSS stand for?",
+          "options": [
+            "Cascading Style Sheets",
+            "Computer Style Sheets",
+            "Creative Style System",
+            "Colorful Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "question": "Which command initializes a new Git repository?",
+          "options": [
+            "git start",
+            "git new",
+            "git init",
+            "git create"
+          ],
+          "answer": "git init"
+        },
+        {
+          "question": "Which symbol is used for single-line comments in JavaScript?",
+          "options": [
+            "//",
+            "<!--",
+            "##",
+            "--"
+          ],
+          "answer": "//"
+        },
+        {
+          "question": "Which array method adds an element to the end?",
+          "options": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+          ],
+          "answer": "push"
+        },
+        {
+          "question": "Which HTTP method retrieves data?",
+          "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        },
+        {
+          "question": "Which statement loops over object properties?",
+          "options": [
+            "for...in",
+            "for",
+            "while",
+            "foreach"
+          ],
+          "answer": "for...in"
+        },
+        {
+          "question": "Which CSS property sets text color?",
+          "options": [
+            "color",
+            "font-color",
+            "text-color",
+            "fgcolor"
+          ],
+          "answer": "color"
+        },
+        {
+          "question": "Which function converts a string to an integer in JavaScript?",
+          "options": [
+            "parseInt",
+            "toInt",
+            "Number.parse",
+            "int"
+          ],
+          "answer": "parseInt"
+        },
+        {
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "const",
+            "static"
+          ],
+          "answer": "let"
+        }
+      ]
     }
   ],
   "groups": [],

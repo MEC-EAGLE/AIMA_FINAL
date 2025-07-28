@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
     });
     return;
   }
-  if (!['users','posts','groups','messages'].includes(key)) {
+  if (!['users','posts','groups','messages','assessments'].includes(key)) {
     res.statusCode = 404;
     return res.end('Not found');
   }

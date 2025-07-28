@@ -24,6 +24,14 @@ export interface User {
   dmInvites?: string[];
   verificationCode?: string;
   resetCode?: string;
+  codingScore?: number;
+  preferences?: string[];
+  ratings?: Rating[];
+}
+
+export interface Rating {
+  from: string;
+  score: number;
 }
 
 export interface Recommendation {
@@ -48,6 +56,8 @@ export interface Post {
   tags: string[];
   applicants: string[];
   statuses: Record<string, string>;
+  assessmentId?: number;
+  assessmentScores?: Record<string, number>;
   comments: Comment[];
 }
 
@@ -87,4 +97,18 @@ export interface Note {
 export interface PeopleNeed {
   role: string;
   count: number;
+}
+
+export interface CustomQuestion {
+  question: string;
+  options: string[];
+  answer: string;
+}
+
+export interface CustomAssessment {
+  id: number;
+  orgEmail: string;
+  jobId?: number;
+  title: string;
+  questions: CustomQuestion[];
 }
