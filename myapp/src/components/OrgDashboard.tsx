@@ -10,6 +10,7 @@ export default function OrgDashboard() {
   const [users, setUsers] = useState<any[]>([]);
   const [filterSkill, setFilterSkill] = useState('');
   const [minRating, setMinRating] = useState(0);
+  const [minScore, setMinScore] = useState(0);
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -92,7 +93,7 @@ export default function OrgDashboard() {
               onChange={e => setFilterSkill(e.target.value)}
             />
           </div>
-          <div className="col-md-6 mb-2">
+          <div className="col-md-3 mb-2">
             <label className="form-label me-2">Minimum rating</label>
             <select
               className="form-select w-auto d-inline-block"
@@ -104,6 +105,19 @@ export default function OrgDashboard() {
                 <option key={n} value={n}>
                   {n}+
                 </option>
+              ))}
+            </select>
+          </div>
+          <div className="col-md-3 mb-2">
+            <label className="form-label me-2">Min assessment score</label>
+            <select
+              className="form-select w-auto d-inline-block"
+              value={minScore}
+              onChange={e => setMinScore(parseInt(e.target.value))}
+            >
+              <option value={0}>Any</option>
+              {[1,2,3,4,5,6,7,8,9,10].map(n => (
+                <option key={n} value={n}>{n}+</option>
               ))}
             </select>
           </div>
@@ -173,12 +187,14 @@ export default function OrgDashboard() {
                       ? cand.ratings.reduce((s: number, r: any) => s + r.score, 0) / cand.ratings.length
                       : 0;
                     const ratingOk = rating >= minRating;
+                    const score = p.assessmentScores?.[a] || 0;
+                    const scoreOk = score >= minScore;
                     const skillOk =
                       !filterSkill.trim() ||
                       (cand.skills || []).some(s =>
                         s.toLowerCase().includes(filterSkill.toLowerCase())
                       );
-                    return ratingOk && skillOk;
+                    return ratingOk && skillOk && scoreOk;
                   })
                   .map(a => (
                   <li
@@ -198,6 +214,11 @@ export default function OrgDashboard() {
                           {cand.ratings && cand.ratings.length > 0 && (
                             <span className="ms-2 text-warning">
                               {(cand.ratings.reduce((s:number,r:any)=>s+r.score,0)/cand.ratings.length).toFixed(1)}/5
+                            </span>
+                          )}
+                          {p.assessmentScores && (
+                            <span className="ms-2 badge bg-info text-dark">
+                              Score {p.assessmentScores[cand.email] ?? 0}
                             </span>
                           )}
                           {cand.resume && (

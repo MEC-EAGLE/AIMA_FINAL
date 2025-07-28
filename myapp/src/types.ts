@@ -56,6 +56,8 @@ export interface Post {
   tags: string[];
   applicants: string[];
   statuses: Record<string, string>;
+  assessmentId?: number;
+  assessmentScores?: Record<string, number>;
   comments: Comment[];
 }
 
@@ -106,6 +108,7 @@ export interface CustomQuestion {
 export interface CustomAssessment {
   id: number;
   orgEmail: string;
+  jobId?: number;
   title: string;
   questions: CustomQuestion[];
 }

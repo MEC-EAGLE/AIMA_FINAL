@@ -1,13 +1,15 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Nav from './Nav';
-import { getAssessments, saveAssessments } from '../utils';
-import type { CustomAssessment } from '../types';
+import { getAssessments, saveAssessments, getPosts } from '../utils';
+import type { CustomAssessment, Post } from '../types';
 
 export default function CreateAssessment() {
   const navigate = useNavigate();
   const [user, setUser] = useState<any>(null);
   const [title, setTitle] = useState('');
+  const [jobId, setJobId] = useState<number | undefined>(undefined);
+  const [jobs, setJobs] = useState<Post[]>([]);
   const [questions, setQuestions] = useState([
     { question: '', options: ['', '', '', ''], answer: '' },
   ]);
@@ -18,6 +20,7 @@ export default function CreateAssessment() {
     const me = JSON.parse(stored);
     if (me.type !== 'org') return navigate('/dashboard');
     setUser(me);
+    getPosts().then(ps => setJobs(ps.filter(p => p.authorEmail === me.email)));
   }, [navigate]);
 
   if (!user) return null;
@@ -45,6 +48,7 @@ export default function CreateAssessment() {
     const newA: CustomAssessment = {
       id: Date.now(),
       orgEmail: user.email,
+      jobId,
       title,
       questions,
     };
@@ -61,6 +65,21 @@ export default function CreateAssessment() {
         <div className="mb-3">
           <label className="form-label">Title</label>
           <input className="form-control" value={title} onChange={e => setTitle(e.target.value)} />
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Attach to Job (optional)</label>
+          <select
+            className="form-select"
+            value={jobId || ''}
+            onChange={e => setJobId(e.target.value ? Number(e.target.value) : undefined)}
+          >
+            <option value="">None</option>
+            {jobs.map(j => (
+              <option key={j.id} value={j.id}>
+                {j.title}
+              </option>
+            ))}
+          </select>
         </div>
         {questions.map((q, i) => (
           <div key={i} className="card mb-3 p-3">

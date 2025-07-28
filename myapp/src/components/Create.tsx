@@ -1,6 +1,6 @@
 import { useNavigate, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { getPosts, savePosts, getUsers } from '../utils';
+import { getPosts, savePosts, getUsers, getAssessments } from '../utils';
 
 export default function Create() {
   const navigate = useNavigate();
@@ -10,6 +10,8 @@ export default function Create() {
   const [postType, setPostType] = useState('job');
   const [posts, setPosts] = useState([] as any[]);
   const [users, setUsers] = useState([] as any[]);
+  const [assessments, setAssessments] = useState([] as any[]);
+  const [assessmentId, setAssessmentId] = useState<number | ''>('');
 
   useEffect(() => {
     const u = localStorage.getItem('currentUser');
@@ -20,9 +22,10 @@ export default function Create() {
       return;
     }
     setUser(parsed);
-    Promise.all([getPosts(), getUsers()]).then(([p, us]) => {
+    Promise.all([getPosts(), getUsers(), getAssessments()]).then(([p, us, as]) => {
       setPosts(p.filter(x => x.authorEmail === parsed.email));
       setUsers(us);
+      setAssessments(as.filter((a: any) => a.orgEmail === parsed.email));
     });
   }, [navigate]);
 
@@ -41,6 +44,8 @@ export default function Create() {
       tags: [],
       applicants: [],
       statuses: {},
+      assessmentId: assessmentId === '' ? undefined : Number(assessmentId),
+      assessmentScores: {},
       comments: [],
     });
     await savePosts(all);
@@ -105,6 +110,24 @@ export default function Create() {
                 <option value="volunteering">Volunteering</option>
                 <option value="project">Project</option>
               </select>
+            </div>
+            <div className="mb-3">
+              <label className="form-label">Assessment</label>
+              <select
+                className="form-select"
+                value={assessmentId}
+                onChange={e => setAssessmentId(e.target.value ? Number(e.target.value) as any : '')}
+              >
+                <option value="">None</option>
+                {assessments.map((a: any) => (
+                  <option key={a.id} value={a.id}>
+                    {a.title}
+                  </option>
+                ))}
+              </select>
+              <div className="form-text">
+                <Link to="/create-assessment">Create Assessment</Link>
+              </div>
             </div>
             <button className="btn btn-primary" type="submit">
               Create

@@ -70,7 +70,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 1,
+      "assessmentScores": {}
     },
     {
       "id": 2,
@@ -86,7 +88,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 2,
+      "assessmentScores": {}
     },
     {
       "id": 3,
@@ -102,7 +106,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 3,
+      "assessmentScores": {}
     },
     {
       "id": 4,
@@ -118,7 +124,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 4,
+      "assessmentScores": {}
     },
     {
       "id": 5,
@@ -134,7 +142,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 5,
+      "assessmentScores": {}
     },
     {
       "id": 6,
@@ -150,7 +160,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 6,
+      "assessmentScores": {}
     },
     {
       "id": 7,
@@ -166,7 +178,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 7,
+      "assessmentScores": {}
     },
     {
       "id": 8,
@@ -182,7 +196,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 8,
+      "assessmentScores": {}
     },
     {
       "id": 9,
@@ -198,7 +214,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 9,
+      "assessmentScores": {}
     },
     {
       "id": 10,
@@ -214,7 +232,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 10,
+      "assessmentScores": {}
     },
     {
       "id": 11,
@@ -230,7 +250,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 11,
+      "assessmentScores": {}
     },
     {
       "id": 12,
@@ -246,7 +268,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 12,
+      "assessmentScores": {}
     },
     {
       "id": 13,
@@ -262,7 +286,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 13,
+      "assessmentScores": {}
     },
     {
       "id": 14,
@@ -278,7 +304,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 14,
+      "assessmentScores": {}
     },
     {
       "id": 15,
@@ -294,7 +322,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 15,
+      "assessmentScores": {}
     },
     {
       "id": 16,
@@ -310,7 +340,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 16,
+      "assessmentScores": {}
     },
     {
       "id": 17,
@@ -326,7 +358,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 17,
+      "assessmentScores": {}
     },
     {
       "id": 18,
@@ -342,7 +376,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 18,
+      "assessmentScores": {}
     },
     {
       "id": 19,
@@ -358,7 +394,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 19,
+      "assessmentScores": {}
     },
     {
       "id": 20,
@@ -374,7 +412,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 20,
+      "assessmentScores": {}
     },
     {
       "id": 21,
@@ -390,7 +430,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 21,
+      "assessmentScores": {}
     },
     {
       "id": 22,
@@ -406,7 +448,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 22,
+      "assessmentScores": {}
     },
     {
       "id": 23,
@@ -422,7 +466,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 23,
+      "assessmentScores": {}
     },
     {
       "id": 24,
@@ -438,7 +484,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 24,
+      "assessmentScores": {}
     },
     {
       "id": 25,
@@ -454,7 +502,9 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 25,
+      "assessmentScores": {}
     },
     {
       "id": 26,
@@ -470,10 +520,481 @@
       ],
       "applicants": [],
       "statuses": {},
-      "comments": []
+      "comments": [],
+      "assessmentId": 26,
+      "assessmentScores": {}
     }
   ],
-  "assessments": [],
+  "assessments": [
+    {
+      "id": 1,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 1,
+      "title": "Frontend Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which HTML tag is used to include JavaScript code?",
+          "options": [
+            "<script>",
+            "<js>",
+            "<code>",
+            "<javascript>"
+          ],
+          "answer": "<script>"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 2,
+      "title": "Backend Developer Quiz",
+      "questions": [
+        {
+          "question": "Which Node.js framework is popular for building APIs?",
+          "options": [
+            "Express",
+            "Django",
+            "Rails",
+            "Laravel"
+          ],
+          "answer": "Express"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 3,
+      "title": "Data Scientist Quiz",
+      "questions": [
+        {
+          "question": "Which library is commonly used for data analysis in Python?",
+          "options": [
+            "NumPy",
+            "React",
+            "Angular",
+            "Laravel"
+          ],
+          "answer": "NumPy"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 4,
+      "title": "UX Designer Quiz",
+      "questions": [
+        {
+          "question": "Which tool is primarily used for interface design prototypes?",
+          "options": [
+            "Figma",
+            "Jira",
+            "Photoshop",
+            "Slack"
+          ],
+          "answer": "Figma"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 5,
+      "title": "Full Stack Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language can run on both client and server?",
+          "options": [
+            "JavaScript",
+            "C++",
+            "Java",
+            "Python"
+          ],
+          "answer": "JavaScript"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 6,
+      "title": "Cloud Infrastructure Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which AWS service manages infrastructure as code templates?",
+          "options": [
+            "CloudFormation",
+            "S3",
+            "RDS",
+            "Lambda"
+          ],
+          "answer": "CloudFormation"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 7,
+      "title": "iOS Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is mainly used for iOS apps?",
+          "options": [
+            "Swift",
+            "Kotlin",
+            "C#",
+            "Ruby"
+          ],
+          "answer": "Swift"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 8,
+      "title": "Security Analyst Quiz",
+      "questions": [
+        {
+          "question": "What does SIEM stand for?",
+          "options": [
+            "Security Information and Event Management",
+            "Simple Internet Email Method",
+            "System Integrity Monitor",
+            "Secure Intranet Environment Management"
+          ],
+          "answer": "Security Information and Event Management"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 9,
+      "title": "DevOps Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which tool orchestrates containers?",
+          "options": [
+            "Kubernetes",
+            "Git",
+            "Nginx",
+            "Webpack"
+          ],
+          "answer": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 10,
+      "title": "Machine Learning Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which library was created by Google for deep learning?",
+          "options": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit",
+            "Theano"
+          ],
+          "answer": "TensorFlow"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 11,
+      "title": "Systems Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which Linux command lists running processes?",
+          "options": [
+            "top",
+            "ls",
+            "grep",
+            "pwd"
+          ],
+          "answer": "top"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 12,
+      "title": "Blockchain Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is used for Ethereum smart contracts?",
+          "options": [
+            "Solidity",
+            "Rust",
+            "Python",
+            "C#"
+          ],
+          "answer": "Solidity"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 13,
+      "title": "Bioinformatics Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which format stores DNA sequences?",
+          "options": [
+            "FASTA",
+            "CSV",
+            "JSON",
+            "PNG"
+          ],
+          "answer": "FASTA"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 14,
+      "title": "FinTech Product Manager Quiz",
+      "questions": [
+        {
+          "question": "Which methodology involves iterative sprints?",
+          "options": [
+            "Agile",
+            "Waterfall",
+            "Kanban",
+            "Six Sigma"
+          ],
+          "answer": "Agile"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 15,
+      "title": "Unity Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is standard for Unity scripting?",
+          "options": [
+            "C#",
+            "Java",
+            "Python",
+            "Swift"
+          ],
+          "answer": "C#"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 16,
+      "title": "Shopify Developer Quiz",
+      "questions": [
+        {
+          "question": "What template language powers Shopify themes?",
+          "options": [
+            "Liquid",
+            "Mustache",
+            "EJS",
+            "Pug"
+          ],
+          "answer": "Liquid"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 17,
+      "title": "Embedded Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which language is common in embedded systems?",
+          "options": [
+            "C++",
+            "Ruby",
+            "PHP",
+            "Go"
+          ],
+          "answer": "C++"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 18,
+      "title": "Data Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which framework is used for big data with Hadoop?",
+          "options": [
+            "Spark",
+            "Angular",
+            "Flask",
+            "Vue"
+          ],
+          "answer": "Spark"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 19,
+      "title": "Robotics Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which middleware is widely used in robotics with C++?",
+          "options": [
+            "ROS",
+            "TensorFlow",
+            "Docker",
+            "Unity"
+          ],
+          "answer": "ROS"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 20,
+      "title": "Ad Operations Specialist Quiz",
+      "questions": [
+        {
+          "question": "Which metric indicates ad performance online?",
+          "options": [
+            "ROI",
+            "RAM",
+            "FPS",
+            "RPM"
+          ],
+          "answer": "ROI"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 21,
+      "title": "Game Backend Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which database often backs online games for realtime data?",
+          "options": [
+            "Redis",
+            "SQLite",
+            "Oracle",
+            "Dynamo"
+          ],
+          "answer": "Redis"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 22,
+      "title": "NLP Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which field of AI focuses on human language?",
+          "options": [
+            "NLP",
+            "CV",
+            "RL",
+            "GAN"
+          ],
+          "answer": "NLP"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 23,
+      "title": "Android Developer Quiz",
+      "questions": [
+        {
+          "question": "Which language is used for Android development?",
+          "options": [
+            "Kotlin",
+            "Swift",
+            "Ruby",
+            "C"
+          ],
+          "answer": "Kotlin"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 24,
+      "title": "AR/VR Software Engineer Quiz",
+      "questions": [
+        {
+          "question": "Which technology enables augmented reality experiences?",
+          "options": [
+            "ARKit",
+            "TensorFlow",
+            "Bootstrap",
+            "Node"
+          ],
+          "answer": "ARKit"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 25,
+      "title": "Microservices Architect Quiz",
+      "questions": [
+        {
+          "question": "Which pattern decomposes apps into small services?",
+          "options": [
+            "Microservices",
+            "Monolith",
+            "SOA",
+            "Client-Server"
+          ],
+          "answer": "Microservices"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "orgEmail": "jobs2@gmail.com",
+      "jobId": 26,
+      "title": "Senior Full Stack Developer Quiz",
+      "questions": [
+        {
+          "question": "Which frontend framework uses components and RxJS?",
+          "options": [
+            "Angular",
+            "Vue",
+            "React",
+            "Svelte"
+          ],
+          "answer": "Angular"
+        }
+      ]
+    }
+  ],
   "groups": [],
   "messages": []
 }

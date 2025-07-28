@@ -20,7 +20,8 @@ Peer-to-peer networking and upskilling options foster community growth.
 Integration with popular communication tools like WhatsApp and email for easier follow-ups.
 Members can rate each other from profiles, and organizations see suggested candidates based on skill and preference matching.
 Organizations can filter applicants by skill keywords and minimum rating to quickly sort large numbers of resumes.
-Organizations may create their own custom assessments for applicants.
+Organizations may create their own custom assessments and attach them to job posts.
+Applicants must complete these assessments when applying, and organizations can view scores and filter candidates by minimum assessment result. Rankings are hidden from applicants.
 Getting Started
 Install dependencies:
 npm install
