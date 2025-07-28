@@ -12,7 +12,10 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-indeed">
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center" to="/dashboard">
+        <Link
+          className="navbar-brand d-flex align-items-center"
+          to={me && me.type === 'org' ? '/org-dashboard' : '/dashboard'}
+        >
           <img src={logo} alt="logo" />
         </Link>
         <button

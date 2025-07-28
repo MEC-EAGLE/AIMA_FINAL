@@ -23,6 +23,17 @@ export default function OrgDashboard() {
 
   if (!user) return null;
 
+  const totalPosts = posts.length;
+  const totalApplicants = posts.reduce(
+    (sum, p) => sum + p.applicants.length,
+    0
+  );
+  const uncheckedResumes = posts.reduce(
+    (sum, p) =>
+      sum + p.applicants.filter(a => (p.statuses[a] || 'applied') === 'applied').length,
+    0
+  );
+
   const withdrawPost = async (id: number) => {
     const all = await getPosts();
     const filtered = all.filter(p => p.id !== id);
@@ -43,6 +54,32 @@ export default function OrgDashboard() {
       <Nav />
       <div className="container my-4">
         <h2>Your Job Posts</h2>
+        <div className="row mb-3">
+          <div className="col-md-4 mb-2">
+            <div className="card text-center">
+              <div className="card-body p-2">
+                <h6 className="card-title">Jobs Posted</h6>
+                <p className="fs-4 mb-0">{totalPosts}</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-2">
+            <div className="card text-center">
+              <div className="card-body p-2">
+                <h6 className="card-title">Applications</h6>
+                <p className="fs-4 mb-0">{totalApplicants}</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 mb-2">
+            <div className="card text-center">
+              <div className="card-body p-2">
+                <h6 className="card-title">Unchecked Resumes</h6>
+                <p className="fs-4 mb-0">{uncheckedResumes}</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <Link to="/create" className="btn btn-primary mb-3">
           Post a Job
         </Link>

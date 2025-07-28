@@ -8,7 +8,8 @@ Direct messages with invite system similar to Instagram DMs.
 WhatsApp‑style group chats supporting file attachments and member invites.
 Organizations can create job posts, view applicants, and message them directly.
 Members have a personal dashboard to track saved and applied jobs, while
-organizations get their own dashboard to manage postings and applicants.
+organizations get their own dashboard with basic analytics to manage postings,
+applications, and any pending resumes.
 Coding assessment tab for members only, with rankings shown on their profiles. The quiz now contains around twenty questions inspired by online sources and LeetCode problems.
 Simple JSON file database served via a small Node server.
 Getting Started

@@ -23,7 +23,7 @@ export default function Login() {
           return;
         }
         localStorage.setItem('currentUser', JSON.stringify(found));
-        navigate('/dashboard');
+        navigate(found.type === 'org' ? '/org-dashboard' : '/dashboard');
       } else {
         alert('Invalid credentials');
       }
