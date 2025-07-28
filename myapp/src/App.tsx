@@ -24,6 +24,7 @@ import Forgot from './components/Forgot';
 import Settings from './components/Settings';
 import Apply from './components/Apply';
 import Assessment from './components/Assessment';
+import CreateAssessment from './components/CreateAssessment';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <Route path="/settings" element={<Settings />} />
         <Route path="/apply/:id" element={<Apply />} />
         <Route path="/assessment" element={<Assessment />} />
+        <Route path="/create-assessment" element={<CreateAssessment />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>

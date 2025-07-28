@@ -96,3 +96,16 @@ export interface PeopleNeed {
   role: string;
   count: number;
 }
+
+export interface CustomQuestion {
+  question: string;
+  options: string[];
+  answer: string;
+}
+
+export interface CustomAssessment {
+  id: number;
+  orgEmail: string;
+  title: string;
+  questions: CustomQuestion[];
+}

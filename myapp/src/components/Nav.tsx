@@ -43,6 +43,13 @@ export default function Nav() {
                 </Link>
               </li>
             )}
+            {me && me.type === 'org' && (
+              <li className="nav-item">
+                <Link className="nav-link" to="/create-assessment">
+                  New Assessment
+                </Link>
+              </li>
+            )}
             <li className="nav-item">
               <Link className="nav-link" to="/community">
                 Community

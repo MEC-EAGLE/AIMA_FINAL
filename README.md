@@ -9,8 +9,7 @@ WhatsApp‑style group chats supporting file attachments and member invites.
 Organizations can create job posts, view applicants, and message them directly.
 Members have a personal dashboard to track saved and applied jobs, while
 organizations get their own dashboard with basic analytics to manage postings,
-applications, and any pending resumes. Recruiters can download each applicant's
-resume right from their dashboard.
+applications, and any pending resumes. Recruiters can download each applicant's resume right from their dashboard. After submitting an application, members see a success message and are redirected to the jobs page.
 Coding assessment tab for members only, with rankings shown on their profiles. The quiz now contains around twenty questions inspired by online sources and LeetCode problems.
 Simple JSON file database served via a small Node server.
 AI-powered candidate matching suggests the most relevant applicants for each posting.
@@ -21,6 +20,7 @@ Peer-to-peer networking and upskilling options foster community growth.
 Integration with popular communication tools like WhatsApp and email for easier follow-ups.
 Members can rate each other from profiles, and organizations see suggested candidates based on skill and preference matching.
 Organizations can filter applicants by skill keywords and minimum rating to quickly sort large numbers of resumes.
+Organizations may create their own custom assessments for applicants.
 Getting Started
 Install dependencies:
 npm install

@@ -1,4 +1,4 @@
-import { User, Post, Group, Message } from './types';
+import { User, Post, Group, Message, CustomAssessment } from './types';
 
 export async function hashString(str: string): Promise<string> {
   const buf = new TextEncoder().encode(str);
@@ -68,6 +68,14 @@ export async function saveMessages(msgs: Message[]) {
 
 export async function sendOtpEmail(email: string, otp: string) {
   await postJSON('send-otp', { email, otp });
+}
+
+export async function getAssessments(): Promise<CustomAssessment[]> {
+  return await fetchJSON('assessments');
+}
+
+export async function saveAssessments(assessments: CustomAssessment[]) {
+  await postJSON('assessments', assessments);
 }
 
 export function matchCandidates(post: Post, users: User[]) {

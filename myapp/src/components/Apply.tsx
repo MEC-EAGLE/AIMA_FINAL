@@ -56,6 +56,7 @@ export default function Apply() {
     await saveUsers(allUsers);
     localStorage.setItem('currentUser', JSON.stringify(allUsers[uIdx]));
     setStep(4);
+    setTimeout(() => navigate('/jobs'), 2000);
   };
 
   return (
@@ -151,12 +152,13 @@ export default function Apply() {
         )}
         {step === 4 && (
           <div className="text-center">
-            <h5 className="mb-3">Application submitted!</h5>
+            <h5 className="mb-3">Successfully applied!</h5>
+            <p className="mb-2">Redirecting to jobs...</p>
             <button
               className="btn btn-primary"
-              onClick={() => navigate('/dashboard')}
+              onClick={() => navigate('/jobs')}
             >
-              Return to Dashboard
+              Go to Jobs
             </button>
           </div>
         )}

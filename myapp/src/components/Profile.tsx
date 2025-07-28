@@ -104,7 +104,7 @@ export default function Profile() {
             <p>{user.preferences.join(', ')}</p>
           </div>
         )}
-        {user.codingScore !== undefined && rank && totalRanks && user.type === 'member' && (
+        {user.type === 'member' && user.codingScore !== undefined && rank > 0 && totalRanks && (
           <p className="text-muted">Coding rank: {rank} of {totalRanks}</p>
         )}
         {avgRating && (
