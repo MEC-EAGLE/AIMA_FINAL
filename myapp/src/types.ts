@@ -25,6 +25,13 @@ export interface User {
   verificationCode?: string;
   resetCode?: string;
   codingScore?: number;
+  preferences?: string[];
+  ratings?: Rating[];
+}
+
+export interface Rating {
+  from: string;
+  score: number;
 }
 
 export interface Recommendation {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import Nav from './Nav';
-import { getPosts, savePosts, getUsers } from '../utils';
+import { getPosts, savePosts, getUsers, matchCandidates } from '../utils';
 
 export default function OrgDashboard() {
   const navigate = useNavigate();
@@ -95,6 +95,46 @@ export default function OrgDashboard() {
               >
                 Withdraw Post
               </button>
+              {(() => {
+                const matches = matchCandidates(p, users)
+                  .filter(m => !p.applicants.includes(m.user.email))
+                  .slice(0, 3);
+                return matches.length > 0 ? (
+                  <div className="mb-2">
+                    <h6>Suggested Candidates</h6>
+                    <ul className="list-group">
+                      {matches.map(m => (
+                        <li key={m.user.email} className="list-group-item">
+                          <strong>{m.user.contactName}</strong>{' '}
+                          <span className="text-muted">
+                            {(m.user.skills || []).join(', ') || 'No skills'}
+                          </span>
+                          {m.user.ratings && m.user.ratings.length > 0 && (
+                            <span className="ms-2 text-warning">
+                              {(m.user.ratings.reduce((s:number,r:any)=>s+r.score,0)/m.user.ratings.length).toFixed(1)}/5
+                            </span>
+                          )}
+                          <a
+                            href={`mailto:${m.user.email}`}
+                            className="btn btn-sm btn-outline-primary ms-2"
+                          >
+                            Email
+                          </a>
+                          <a
+                            href={`https://wa.me/${m.user.phone}`}
+                            className="btn btn-sm btn-success ms-2"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            WhatsApp
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null;
+              })()}
+
               <h6>Applicants</h6>
               <ul className="list-group mb-2">
                 {p.applicants.map(a => (
@@ -112,6 +152,11 @@ export default function OrgDashboard() {
                           <span className="text-muted">
                             {(cand.skills || []).join(', ') || 'No skills'}
                           </span>
+                          {cand.ratings && cand.ratings.length > 0 && (
+                            <span className="ms-2 text-warning">
+                              {(cand.ratings.reduce((s:number,r:any)=>s+r.score,0)/cand.ratings.length).toFixed(1)}/5
+                            </span>
+                          )}
                           <Link
                             to={`/profile/${cand.email}`}
                             className="btn btn-sm btn-outline-info ms-2"

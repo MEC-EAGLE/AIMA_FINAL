@@ -13,6 +13,7 @@ export default function Register() {
   const [resume, setResume] = useState('');
   const [type, setType] = useState('member');
   const [skills, setSkills] = useState('');
+  const [prefs, setPrefs] = useState('');
   const [agree, setAgree] = useState(false);
   const navigate = useNavigate();
 
@@ -82,6 +83,7 @@ export default function Register() {
       dmContacts: [],
       dmInvites: [],
       resetCode: '',
+      ratings: [],
     };
     if (type === 'member') {
       newUser.skills = skills
@@ -89,6 +91,10 @@ export default function Register() {
         .map((s: string) => s.trim())
         .filter((s: string) => s);
       newUser.resume = resume;
+      newUser.preferences = prefs
+        .split(',')
+        .map((s: string) => s.trim())
+        .filter((s: string) => s);
     }
     if (type === 'org') {
       newUser.peopleMap = [];
@@ -217,6 +223,16 @@ export default function Register() {
               className="form-control"
               value={skills}
               onChange={e => setSkills(e.target.value)}
+            />
+          </div>
+        )}
+        {type === 'member' && (
+          <div className="mb-3">
+            <label className="form-label">Job Preferences (comma separated)</label>
+            <input
+              className="form-control"
+              value={prefs}
+              onChange={e => setPrefs(e.target.value)}
             />
           </div>
         )}

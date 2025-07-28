@@ -70,3 +70,24 @@ export async function sendOtpEmail(email: string, otp: string) {
   await postJSON('send-otp', { email, otp });
 }
 
+export function matchCandidates(post: Post, users: User[]) {
+  const keywords = [
+    ...post.tags.map(t => t.toLowerCase()),
+    ...post.title.toLowerCase().split(/\W+/),
+  ];
+  return users
+    .filter(u => u.type === 'member')
+    .map(u => {
+      const skills = (u.skills || []).map(s => s.toLowerCase());
+      const prefs = (u.preferences || []).map(p => p.toLowerCase());
+      let score = 0;
+      for (const k of keywords) {
+        if (skills.includes(k)) score += 2;
+        if (prefs.includes(k)) score += 1;
+      }
+      return { user: u, score };
+    })
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score);
+}
+
