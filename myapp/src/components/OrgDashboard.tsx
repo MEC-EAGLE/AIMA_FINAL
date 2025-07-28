@@ -13,6 +13,7 @@ export default function OrgDashboard() {
   const [minScore, setMinScore] = useState(0);
   const [showNew, setShowNew] = useState(false);
   const [selectedId, setSelectedId] = useState<number | null>(null);
+  const selectedPost = posts.find(p => p.id === selectedId) || null;
 
   useEffect(() => {
     const stored = localStorage.getItem('currentUser');
@@ -166,13 +167,16 @@ export default function OrgDashboard() {
           </div>
         </div>
         {selectedId && (
-          <button
-            type="button"
-            className="btn btn-secondary mb-3"
-            onClick={() => setSelectedId(null)}
-          >
-            Back to all posts
-          </button>
+          <>
+            <h5 className="mb-2">Viewing applicants for: {selectedPost?.title}</h5>
+            <button
+              type="button"
+              className="btn btn-secondary mb-3"
+              onClick={() => setSelectedId(null)}
+            >
+              Back to all posts
+            </button>
+          </>
         )}
         <Link to="/create" className="btn btn-primary mb-3">
           Post a Job
